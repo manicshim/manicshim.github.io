@@ -3,62 +3,6 @@
 
 
     <url>
-        <loc>http://blog.manic.kr/tags/markdown/</loc>
-        <lastmod>2018-11-05T06:29:00.981Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/code/</loc>
-        <lastmod>2018-11-05T06:29:00.981Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/syntex/</loc>
-        <lastmod>2018-11-05T06:29:00.981Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/blog/</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/edit/</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/coder/</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/developer/</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/programmer/</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.manic.kr/tags/photo/</loc>
         <lastmod>2018-11-05T06:29:49.523Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -117,6 +61,62 @@
     <url>
         <loc>http://blog.manic.kr/tags/%ED%8C%8C%EB%8F%84/</loc>
         <lastmod>2018-11-05T06:29:58.496Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/edit/</loc>
+        <lastmod>2018-11-05T06:31:27.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/coder/</loc>
+        <lastmod>2018-11-05T06:31:27.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/developer/</loc>
+        <lastmod>2018-11-05T06:31:27.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/programmer/</loc>
+        <lastmod>2018-11-05T06:31:27.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/blog/</loc>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/markdown/</loc>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/code/</loc>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/syntex/</loc>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

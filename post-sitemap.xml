@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>http://blog.manic.kr/article/md-example</loc>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/article/coder</loc>
+        <lastmod>2018-11-05T06:31:27.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.manic.kr/article/trip-sea2</loc>
         <lastmod>2018-11-05T06:29:58.496Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -26,22 +42,6 @@
     <url>
         <loc>http://blog.manic.kr/article/test</loc>
         <lastmod>2018-11-05T06:29:49.523Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/article/coder</loc>
-        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/article/md-example</loc>
-        <lastmod>2018-11-05T06:29:00.981Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
