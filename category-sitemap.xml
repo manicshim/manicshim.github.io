@@ -8,36 +8,43 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/photo/landscape/</loc>
-        <lastmod>2018-11-01T03:14:51.535Z</lastmod>
+        <loc>http://blog.manic.kr/categories/develper/code/</loc>
+        <lastmod>2018-11-05T06:29:00.981Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/dev/</loc>
-        <lastmod>2018-11-01T03:40:08.983Z</lastmod>
+        <loc>http://blog.manic.kr/categories/develper/</loc>
+        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/dev/etc/</loc>
-        <lastmod>2018-11-01T03:40:08.983Z</lastmod>
+        <loc>http://blog.manic.kr/categories/develper/etc/</loc>
+        <lastmod>2018-11-05T06:29:11.606Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/photo/</loc>
-        <lastmod>2018-11-05T06:05:35.339Z</lastmod>
+        <loc>http://blog.manic.kr/categories/photographer/landscape/</loc>
+        <lastmod>2018-11-05T06:29:49.523Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/photo/trip/</loc>
-        <lastmod>2018-11-05T06:05:35.339Z</lastmod>
+        <loc>http://blog.manic.kr/categories/photographer/</loc>
+        <lastmod>2018-11-05T06:29:58.496Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/photographer/trip/</loc>
+        <lastmod>2018-11-05T06:29:58.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

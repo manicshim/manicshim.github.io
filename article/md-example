@@ -21,7 +21,7 @@
 <meta property="og:description" content="GFM MarkdownHeading 2Heading 3Heading 4Heading 5Heading 6code block 1console.log(&quot;fenced code block&quot;); HTML block  list list indented     ordered list ordered list indented      task  list completed">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://cloud.githubusercontent.com/assets/389021/16107646/9729e556-33d8-11e6-933f-5b09fa3a53bb.png">
-<meta property="og:updated_time" content="2018-11-01T03:40:08.983Z">
+<meta property="og:updated_time" content="2018-11-05T06:29:00.981Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[markdown] Example">
 <meta name="twitter:description" content="GFM MarkdownHeading 2Heading 3Heading 4Heading 5Heading 6code block 1console.log(&quot;fenced code block&quot;); HTML block  list list indented     ordered list ordered list indented      task  list completed">
@@ -94,7 +94,7 @@ ga('send', 'pageview');
                                     <a class="main-nav-list-link" href="/">main</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/dev/">dev</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/dev/etc/">etc</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photo/">photo</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photo/landscape/">landscape</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photo/trip/">trip</a></li></ul></li></ul>
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/develper/">develper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/develper/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/develper/etc/">etc</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/trip/">trip</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item">
                                     <a class="main-nav-list-link" href="/about">about</a>
@@ -153,7 +153,7 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/dev/">dev</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/dev/etc/">etc</a>
+    <a class="page-title-link" href="/categories/develper/">develper</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/develper/code/">code</a>
     </h1>
 </div>
 
@@ -412,7 +412,7 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/photo/">photo</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photo/trip/">trip</a></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/trip/">trip</a></p>
                             <p class="item-title"><a href="/article/trip-sea2" class="title">[여행] 가을바다의 낭만을 떠나다 - 2편</a></p>
                             <p class="item-date"><time datetime="2018-11-05T05:33:03.000Z" itemprop="datePublished">2018-11-05</time></p>
                         </div>
@@ -432,7 +432,7 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/dev/">dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/dev/etc/">etc</a></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/develper/">develper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/develper/code/">code</a></p>
                             <p class="item-title"><a href="/article/md-example" class="title">[markdown] Example</a></p>
                             <p class="item-date"><time datetime="2018-11-01T03:21:27.000Z" itemprop="datePublished">2018-11-01</time></p>
                         </div>
@@ -452,7 +452,7 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/photo/">photo</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photo/trip/">trip</a></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/trip/">trip</a></p>
                             <p class="item-title"><a href="/article/trip-sea" class="title">[여행] 가을바다의 낭만을 떠나다 - 1편</a></p>
                             <p class="item-date"><time datetime="2018-10-31T08:42:10.000Z" itemprop="datePublished">2018-10-31</time></p>
                         </div>
@@ -472,7 +472,7 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/dev/">dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/dev/etc/">etc</a></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/develper/">develper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/develper/etc/">etc</a></p>
                             <p class="item-title"><a href="/article/coder" class="title">[edit] Coder가 바라보는 Blog</a></p>
                             <p class="item-date"><time datetime="2018-10-28T06:41:40.000Z" itemprop="datePublished">2018-10-28</time></p>
                         </div>
@@ -492,7 +492,7 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/photo/">photo</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photo/landscape/">landscape</a></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/landscape/">landscape</a></p>
                             <p class="item-title"><a href="/article/test" class="title">test</a></p>
                             <p class="item-date"><time datetime="2018-10-26T06:41:40.000Z" itemprop="datePublished">2018-10-26</time></p>
                         </div>
@@ -507,7 +507,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/dev/">dev</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/dev/etc/">etc</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photo/">photo</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photo/landscape/">landscape</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photo/trip/">trip</a><span class="category-list-count">2</span></li></ul></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/develper/">develper</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/develper/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/develper/etc/">etc</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/trip/">trip</a><span class="category-list-count">2</span></li></ul></li></ul>
         </div>
     </div>
 
