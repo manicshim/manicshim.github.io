@@ -10,10 +10,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="blog,markdown,code,syntex">
+        <meta name="keywords" content="markdown,code,syntex,blog">
     
     <meta name="description" content="GFM MarkdownHeading 2Heading 3Heading 4Heading 5Heading 6code block 1console.log(&quot;fenced code block&quot;); HTML block  list list indented     ordered list ordered list indented      task  list completed">
-<meta name="keywords" content="blog,markdown,code,syntex">
+<meta name="keywords" content="markdown,code,syntex,blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[markdown] Example">
 <meta property="og:url" content="http://blog.manic.kr/article/md-example">
@@ -244,7 +244,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/md-example" data-id="cjo3vdfry0005z5n3ccx24dla" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/md-example" data-id="cjo6j5gzs0000h8n3xvapqcif" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
