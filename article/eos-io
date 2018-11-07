@@ -21,7 +21,7 @@
 <meta property="og:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.manic.kr/thumb/eos.png">
-<meta property="og:updated_time" content="2018-11-07T06:06:00.183Z">
+<meta property="og:updated_time" content="2018-11-07T06:07:02.274Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[EOS.IO] 설치 및 실행">
 <meta name="twitter:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
@@ -232,10 +232,10 @@ ga('send', 'pageview');
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
 <p>위 명령의 결과로 다음과 같이 블록이 계속 생성됨을 확인</p>
 <p><img src="https://user-images.githubusercontent.com/22788288/48113485-6743b200-e29e-11e8-898f-76511ce6f7f6.png" alt="주기적으로 블록이 생성됨"></p>
-<h3 id="EOS-커맨드라인-인터페이스-실행-cleos"><a href="#EOS-커맨드라인-인터페이스-실행-cleos" class="headerlink" title="EOS 커맨드라인 인터페이스 실행 (cleos)"></a>EOS 커맨드라인 인터페이스 실행 (cleos)</h3><p>cleos 를 통해 nodeos에 명령을 내리고 상태를 확인<br>cleos를 통해 nodeos의 정보를 출력한다</p>
+<h3 id="EOS-커맨드라인-인터페이스-실행-cleos"><a href="#EOS-커맨드라인-인터페이스-실행-cleos" class="headerlink" title="EOS 커맨드라인 인터페이스 실행 (cleos)"></a>EOS 커맨드라인 인터페이스 실행 (cleos)</h3><p>cleos 를 통해 nodeos에 명령을 내리고 상태를 확인, 정보를 출력한다</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cleos get info</span><br></pre></td></tr></table></figure>
 <p><img src="https://user-images.githubusercontent.com/22788288/48113528-99edaa80-e29e-11e8-935c-896d9b64de5a.png" alt="EOS 노드의 정보가 출력됨"></p>
-<p>cleos가 명령을 정상적으로 수행<br>실행 중인 nodeos와 올바르게 통신했음 확인</p>
+<p>cleos가 명령을 정상적으로 수행<br>실행 중인 nodeos와 올바르게 통신했음 확인한다</p>
 
         </div>
         <footer class="article-footer">
