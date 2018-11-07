@@ -21,7 +21,7 @@
 <meta property="og:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.manic.kr/thumb/eos.png">
-<meta property="og:updated_time" content="2018-11-07T09:13:24.334Z">
+<meta property="og:updated_time" content="2018-11-07T09:14:12.515Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[EOS.IO] 설치 및 실행">
 <meta name="twitter:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
@@ -221,7 +221,7 @@ ga('send', 'pageview');
 <p>실행파일들이 특정하위 디렉토리에 존재하기때문에 매번 해당경로를 직접지정해서 실행야하는 번거로움</p>
 </blockquote>
 <p>때문에 아래와 같이 진행했다고들 한다</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/eos/build</span><br><span class="line">sudo make install # (/usr/local/bin 은 관리자 계정이기에 sudo 필요)</span><br><span class="line">cd /usr/local/bin/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/eos/build</span><br><span class="line">sudo make install #(/usr/local/bin 은 관리자 계정이기에 sudo 필요)</span><br><span class="line">cd /usr/local/bin/</span><br></pre></td></tr></table></figure>
 <p>찾아보면 없다?! 삽질 ㅠ.ㅠ</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/eosio/bin/</span><br><span class="line">ls -al</span><br></pre></td></tr></table></figure>
 <p>상기 위치에 해당하여 생성되며 전역에서 명령어가 실행되지 않는다<br>이삽질 덕분에 짜증이 이만저만이 아니였다… 결국 모르면 모르는 놈만 답답하지 ㅠ.ㅠ<br><strong>해결방안은 2가지</strong> 이다 </p>
