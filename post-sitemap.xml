@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>http://blog.manic.kr/article/eos-io</loc>
+        <lastmod>2018-11-07T02:16:35.041Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.manic.kr/article/md-example</loc>
         <lastmod>2018-11-05T06:31:29.950Z</lastmod>
         <changefreq>weekly</changefreq>

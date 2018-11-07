@@ -36,15 +36,29 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/developer/</loc>
+        <loc>http://blog.manic.kr/categories/developer/code/</loc>
         <lastmod>2018-11-05T06:31:29.950Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/developer/code/</loc>
-        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <loc>http://blog.manic.kr/categories/developer/</loc>
+        <lastmod>2018-11-07T02:16:35.041Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/blockchain/</loc>
+        <lastmod>2018-11-07T02:16:35.041Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/blockchain/eos/</loc>
+        <lastmod>2018-11-07T02:16:35.041Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
