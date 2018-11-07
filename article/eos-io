@@ -238,7 +238,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/eos-io" data-id="cjo6j8iqr0000ion3gor8wki4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/eos-io" data-id="cjo6nax6m0002zcn377iigv0k" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
