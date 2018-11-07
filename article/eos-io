@@ -10,10 +10,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="blockchain,eos">
+        <meta name="keywords" content="blockchain,eos,eos.io">
     
     <meta name="description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
-<meta name="keywords" content="blockchain,eos">
+<meta name="keywords" content="blockchain,eos,eos.io">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[EOS.IO] 설치 및 실행">
 <meta property="og:url" content="http://blog.manic.kr/article/eos-io">
@@ -21,7 +21,7 @@
 <meta property="og:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.manic.kr/thumb/eos.png">
-<meta property="og:updated_time" content="2018-11-07T02:16:35.041Z">
+<meta property="og:updated_time" content="2018-11-07T02:16:51.589Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[EOS.IO] 설치 및 실행">
 <meta name="twitter:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
@@ -185,7 +185,7 @@ ga('send', 'pageview');
                 
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/blockchain/">blockchain</a>, <a class="tag-link" href="/tags/eos/">eos</a>
+        <a class="tag-link" href="/tags/blockchain/">blockchain</a>, <a class="tag-link" href="/tags/eos/">eos</a>, <a class="tag-link" href="/tags/eos-io/">eos.io</a>
     </div>
 
             </div>
@@ -505,7 +505,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/blog/" style="font-size: 20px;">blog</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/trip/" style="font-size: 10px;">trip</a> <a href="/tags/가을/" style="font-size: 20px;">가을</a> <a href="/tags/노울/" style="font-size: 20px;">노울</a> <a href="/tags/바다/" style="font-size: 20px;">바다</a> <a href="/tags/여행/" style="font-size: 20px;">여행</a> <a href="/tags/일몰/" style="font-size: 20px;">일몰</a> <a href="/tags/파도/" style="font-size: 20px;">파도</a>
+            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/blog/" style="font-size: 20px;">blog</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eos-io/" style="font-size: 10px;">eos.io</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/trip/" style="font-size: 10px;">trip</a> <a href="/tags/가을/" style="font-size: 20px;">가을</a> <a href="/tags/노울/" style="font-size: 20px;">노울</a> <a href="/tags/바다/" style="font-size: 20px;">바다</a> <a href="/tags/여행/" style="font-size: 20px;">여행</a> <a href="/tags/일몰/" style="font-size: 20px;">일몰</a> <a href="/tags/파도/" style="font-size: 20px;">파도</a>
         </div>
     </div>
 
