@@ -6,24 +6,29 @@
     
 
     
-    <title>Category: landscape | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
+    <title>[EOS.IO] Centos7 - EOS 설치하기 | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="여행을 다니며 사진을 찍고 글과 그림을 그리는 웹개발자입니다. 드론을 이용한 항공촬영과 스테빌라이저를 이용한 간소한 영상도 제작/편집 진행중이며 Web의 전반에 종사하고 WebSite, App에 필요한 API를 구성했으며 현재는 블록체인에 EOS 기반의 노드를 구성하는 서버를 설정하는 진행중입니다.">
-<meta name="keywords" content="Coder,Developer,Programmer,Tripper,Photographer,Illustrator,Editer,Calligrapher,CanonEOS1Dx,iphoneX,MavicPro,웹개발자,프로그래머,사진가,여행가,몽상가,낭만가,形而上學">
-<meta property="og:type" content="website">
-<meta property="og:title" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta property="og:url" content="http://blog.manic.kr/categories/photographer/landscape/index.html">
+        <meta name="keywords" content="blockchain,eos,eos.io,nodeos,cleos,keosd,블록체인,centos">
+    
+    <meta name="description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
+<meta name="keywords" content="blockchain,eos,eos.io,nodeos,cleos,keosd,블록체인,centos">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[EOS.IO] Centos7 - EOS 설치하기">
+<meta property="og:url" content="http://blog.manic.kr/article/eos-centos">
 <meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta property="og:description" content="여행을 다니며 사진을 찍고 글과 그림을 그리는 웹개발자입니다. 드론을 이용한 항공촬영과 스테빌라이저를 이용한 간소한 영상도 제작/편집 진행중이며 Web의 전반에 종사하고 WebSite, App에 필요한 API를 구성했으며 현재는 블록체인에 EOS 기반의 노드를 구성하는 서버를 설정하는 진행중입니다.">
+<meta property="og:description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png">
+<meta property="og:updated_time" content="2018-11-13T02:28:53.879Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta name="twitter:description" content="여행을 다니며 사진을 찍고 글과 그림을 그리는 웹개발자입니다. 드론을 이용한 항공촬영과 스테빌라이저를 이용한 간소한 영상도 제작/편집 진행중이며 Web의 전반에 종사하고 WebSite, App에 필요한 API를 구성했으며 현재는 블록체인에 EOS 기반의 노드를 구성하는 서버를 설정하는 진행중입니다.">
+<meta name="twitter:title" content="[EOS.IO] Centos7 - EOS 설치하기">
+<meta name="twitter:description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png">
     
 
-    <link rel="canonical" href="http://blog.manic.kr/categories/photographer/landscape/">
+    <link rel="canonical" href="http://blog.manic.kr/article/eos-centos">
 
     
         <link rel="alternate" href="/rss2.xml" title="어느 웹개발자의 여행사진 일기장 - manic.kr" type="application/atom+xml">
@@ -148,75 +153,144 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-folder-open"></i>Category: <em class="page-title-link">landscape</em>
+    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/">blockchain</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/eos/">eos</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-eos-centos" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/article/test" class="thumbnail">
-    
-    
-        <span style="background-image:url(/thumb/1.jpg)" alt="test" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://blog.manic.kr/article/test">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/landscape/">landscape</a>
-            </div>
-            <div class="date"><time datetime="2018-10-26T06:41:40.000Z" itemprop="datePublished">2018-10-26</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/article/test">test</a>
+        [EOS.IO] Centos7 - EOS 설치하기
         </h1>
     
 
-        <p class="article-excerpt">
-            여행후기
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/article/eos-centos" class="article-date">
+            <time datetime="2018-11-13T01:34:16.000Z" itemprop="datePublished">2018-11-13</time>
+        </a>
+    </div>
 
-        </p>
+		
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/blockchain/">blockchain</a>, <a class="tag-link" href="/tags/centos/">centos</a>, <a class="tag-link" href="/tags/cleos/">cleos</a>, <a class="tag-link" href="/tags/eos/">eos</a>, <a class="tag-link" href="/tags/eos-io/">eos.io</a>, <a class="tag-link" href="/tags/keosd/">keosd</a>, <a class="tag-link" href="/tags/nodeos/">nodeos</a>, <a class="tag-link" href="/tags/블록체인/">블록체인</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="Centos-7-EOS-설치"><a href="#Centos-7-EOS-설치" class="headerlink" title="Centos 7 - EOS 설치"></a>Centos 7 - EOS 설치</h1><p>역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다<br>길라잡이 아니고 참고 자료로 이용되길 바라며</p>
+<hr>
+<h3 id="EOS-IO-centos-7-설치"><a href="#EOS-IO-centos-7-설치" class="headerlink" title="EOS.IO - centos 7 설치"></a>EOS.IO - centos 7 설치</h3><h5 id="1-설치환경"><a href="#1-설치환경" class="headerlink" title="1. 설치환경"></a>1. 설치환경</h5><p><code>Mem: 15G</code><br><code>OS: CentOS Linux 7 (Core)</code><br><code>Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64</code></p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png" alt="Centos7 설치환경"></p>
+<h5 id="2-소스내려받기"><a href="#2-소스내려받기" class="headerlink" title="2. 소스내려받기"></a>2. 소스내려받기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/EOSIO/eos --recursive</span><br><span class="line">cd eos </span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">sudo yum update</span><br><span class="line">./eosio_build.sh -s EOS</span><br></pre></td></tr></table></figure>
+<p><img src="https://user-images.githubusercontent.com/22788288/48385875-8ffef800-e733-11e8-88cc-7c360e2ae256.png" alt="빌드 완료"></p>
+<h3 id="빌드확인"><a href="#빌드확인" class="headerlink" title="빌드확인"></a>빌드확인</h3><p>Ubuntu 와 동일하다<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$&#123;HOME&#125;/opt/mongodb/bin:$PATH</span><br><span class="line">~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &amp;</span><br><span class="line">cd ~/eos/build</span><br><span class="line">sudo make test</span><br></pre></td></tr></table></figure></p>
+<p>테스트도 시간은 10여분 정도 소요되는데 왜 오류가 자꾸 나는지는 검토중이다</p>
+<p>그리고 중요부분</p>
+<blockquote>
+<p>Ubuntu에서 삽질했던부분이다</p>
+</blockquote>
+<p><code>~/eos/build</code> 디렉터리에서 <code>sudo make install</code>을 실행해서 설치하면<br>실행 파일이 v1.1.0 부터는 <code>/usr/local/eosio/bin</code>에 설치된다<br>따라서,<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo update-alternatives --install /usr/local/bin/nodeos nodeos /usr/local/eosio/bin/nodeos 1</span><br><span class="line">sudo update-alternatives --install /usr/local/bin/cleos cleos /usr/local/eosio/bin/cleos 1</span><br></pre></td></tr></table></figure></p>
+<p>와 같이 해줘야 PATH 설정 없이도 편리하게 사용할 수 있다</p>
+<h3 id="EOS-IO-nodeos-실행"><a href="#EOS-IO-nodeos-실행" class="headerlink" title="EOS.IO - nodeos 실행"></a>EOS.IO - nodeos 실행</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
+<p>블록생성이 확인된다</p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48386898-e588d400-e736-11e8-8fec-99cfec2a21e6.png" alt="주기적으로 블록이 생성됨"></p>
+<h3 id="EOS-IO-cleos-확인"><a href="#EOS-IO-cleos-확인" class="headerlink" title="EOS.IO - cleos 확인"></a>EOS.IO - cleos 확인</h3><p><code>cleos get info</code> 명령어를 통해 아래와 같이 확인한다</p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48386897-e588d400-e736-11e8-8465-940180f329aa.png" alt="EOS 노드의 정보가 출력됨"></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://blog.manic.kr/article/eos-centos" data-id="cjof4lits0000rqn3uoxshkbf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
 
@@ -262,6 +336,19 @@ ga('send', 'pageview');
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/article/eos-io" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">[EOS.IO] 설치 및 실행</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -443,11 +530,13 @@ ga('send', 'pageview');
     var disqus_shortname = 'blog-manic-kr';
     
     
+    var disqus_url = 'http://blog.manic.kr/article/eos-centos';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

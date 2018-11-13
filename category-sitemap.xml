@@ -15,20 +15,6 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/photographer/</loc>
-        <lastmod>2018-11-05T06:29:58.496Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/photographer/trip/</loc>
-        <lastmod>2018-11-05T06:29:58.496Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.manic.kr/categories/developer/etc/</loc>
         <lastmod>2018-11-05T06:31:27.276Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -43,22 +29,36 @@
     </url>
 
     <url>
+        <loc>http://blog.manic.kr/categories/photographer/</loc>
+        <lastmod>2018-11-09T08:52:28.682Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/photographer/trip/</loc>
+        <lastmod>2018-11-09T08:52:28.682Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://blog.manic.kr/categories/developer/</loc>
-        <lastmod>2018-11-07T09:14:12.515Z</lastmod>
+        <lastmod>2018-11-13T02:28:53.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/developer/blockchain/</loc>
-        <lastmod>2018-11-07T09:14:12.515Z</lastmod>
+        <lastmod>2018-11-13T02:28:53.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/developer/blockchain/eos/</loc>
-        <lastmod>2018-11-07T09:14:12.515Z</lastmod>
+        <lastmod>2018-11-13T02:28:53.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
