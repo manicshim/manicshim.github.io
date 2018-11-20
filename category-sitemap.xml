@@ -43,13 +43,6 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/developer/</loc>
-        <lastmod>2018-11-13T02:28:53.879Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.manic.kr/categories/developer/blockchain/</loc>
         <lastmod>2018-11-13T02:28:53.879Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -59,6 +52,27 @@
     <url>
         <loc>http://blog.manic.kr/categories/developer/blockchain/eos/</loc>
         <lastmod>2018-11-13T02:28:53.879Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/</loc>
+        <lastmod>2018-11-20T05:25:43.649Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/database/</loc>
+        <lastmod>2018-11-20T05:25:43.649Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/database/redis/</loc>
+        <lastmod>2018-11-20T05:25:43.649Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
