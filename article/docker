@@ -6,29 +6,27 @@
     
 
     
-    <title>test | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
+    <title>[Docker] 도커를 사용하는 기본 명령어 | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="photo,trip,sea">
+        <meta name="keywords" content="docker,system,linux">
     
-    <meta name="description" content="여행후기">
-<meta name="keywords" content="photo,trip,sea">
+    <meta name="description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
+<meta name="keywords" content="docker,system,linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="http://blog.manic.kr/article/test">
+<meta property="og:title" content="[Docker] 도커를 사용하는 기본 명령어">
+<meta property="og:url" content="http://blog.manic.kr/article/docker">
 <meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta property="og:description" content="여행후기">
+<meta property="og:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://blog.manic.kr/thumb/1.jpg">
-<meta property="og:updated_time" content="2018-11-05T06:29:49.523Z">
+<meta property="og:updated_time" content="2018-11-26T07:05:09.522Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
-<meta name="twitter:description" content="여행후기">
-<meta name="twitter:image" content="http://blog.manic.kr/thumb/1.jpg">
+<meta name="twitter:title" content="[Docker] 도커를 사용하는 기본 명령어">
+<meta name="twitter:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
     
 
-    <link rel="canonical" href="http://blog.manic.kr/article/test">
+    <link rel="canonical" href="http://blog.manic.kr/article/docker">
 
     
         <link rel="alternate" href="/rss2.xml" title="어느 웹개발자의 여행사진 일기장 - manic.kr" type="application/atom+xml">
@@ -153,19 +151,19 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/photographer/landscape/">landscape</a>
+    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/system/">system</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/system/docker/">docker</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-test" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+                            <article id="post-docker" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        test
+        [Docker] 도커를 사용하는 기본 명령어
         </h1>
     
 
@@ -175,8 +173,8 @@ ga('send', 'pageview');
             <div class="article-meta">
                 
     <div class="article-date">
-        <a href="/article/test" class="article-date">
-            <time datetime="2018-10-26T06:41:40.000Z" itemprop="datePublished">2018-10-26</time>
+        <a href="/article/docker" class="article-date">
+            <time datetime="2018-11-26T06:43:31.000Z" itemprop="datePublished">2018-11-26</time>
         </a>
     </div>
 
@@ -185,22 +183,26 @@ ga('send', 'pageview');
                 
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/photo/">photo</a>, <a class="tag-link" href="/tags/sea/">sea</a>, <a class="tag-link" href="/tags/trip/">trip</a>
+        <a class="tag-link" href="/tags/docker/">docker</a>, <a class="tag-link" href="/tags/linux/">linux</a>, <a class="tag-link" href="/tags/system/">system</a>
     </div>
 
             </div>
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>여행후기</p>
-
+            <h3 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h3><h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://get.docker.com/ | sudo sh </span><br><span class="line"></span><br><span class="line"># apt-get 또는 yum  설치 할 경우 버전확인</span><br><span class="line">apt-get install docker.io</span><br><span class="line">#OR</span><br><span class="line">yum install docker</span><br></pre></td></tr></table></figure>
+<h5 id="Version-확인"><a href="#Version-확인" class="headerlink" title="Version 확인"></a>Version 확인</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure>
+<h5 id="sudo-없이-사용하기"><a href="#sudo-없이-사용하기" class="headerlink" title="sudo 없이 사용하기"></a>sudo 없이 사용하기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기</span><br><span class="line">sudo usermod -aG docker your-user # your-user 사용자에게 권한주기</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="삭제하기"><a href="#삭제하기" class="headerlink" title="삭제하기"></a>삭제하기</h3><h5 id="컨테이너-삭제"><a href="#컨테이너-삭제" class="headerlink" title="컨테이너 삭제"></a>컨테이너 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker ps # 구동중인 컨테이너 확인</span><br><span class="line">docker ps -a # 컨테이너 전체 확인</span><br><span class="line">docker rm 컨테이너ID # 복수일경우 , 구분</span><br><span class="line">docker ps -a # 컨테이너 확인</span><br></pre></td></tr></table></figure>
+<h5 id="이미지-삭제"><a href="#이미지-삭제" class="headerlink" title="이미지 삭제"></a>이미지 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker images # 이미지 확인</span><br><span class="line">docker rmi 이미지ID</span><br><span class="line">docker rmi -f 이미지 ID # -f 옵션으로 컨테이너 포함하여 강제삭제</span><br></pre></td></tr></table></figure>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="http://blog.manic.kr/article/test" data-id="cjoxydwu9000esxn3bb0irpeq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/docker" data-id="cjoxydwtu0002sxn35me9moen" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -322,20 +324,10 @@ ga('send', 'pageview');
         
 <nav id="article-nav">
     
-        <a href="/article/coder" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            [edit] Coder가 바라보는 Blog
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
     
-    
-        <a href="/article/hello-world" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/article/redis" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">older</strong>
-        <p class="article-nav-title">Hello World</p>
+        <p class="article-nav-title">Redis Desktop Manager on Mac OSX</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
     
@@ -522,7 +514,7 @@ ga('send', 'pageview');
     var disqus_shortname = 'blog-manic-kr';
     
     
-    var disqus_url = 'http://blog.manic.kr/article/test';
+    var disqus_url = 'http://blog.manic.kr/article/docker';
     
     (function() {
     var dsq = document.createElement('script');

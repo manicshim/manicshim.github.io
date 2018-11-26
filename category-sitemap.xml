@@ -57,13 +57,6 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/categories/developer/</loc>
-        <lastmod>2018-11-20T05:25:43.649Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.manic.kr/categories/developer/database/</loc>
         <lastmod>2018-11-20T05:25:43.649Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,6 +66,27 @@
     <url>
         <loc>http://blog.manic.kr/categories/developer/database/redis/</loc>
         <lastmod>2018-11-20T05:25:43.649Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/</loc>
+        <lastmod>2018-11-26T07:05:09.522Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/system/</loc>
+        <lastmod>2018-11-26T07:05:09.522Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/system/docker/</loc>
+        <lastmod>2018-11-26T07:05:09.522Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

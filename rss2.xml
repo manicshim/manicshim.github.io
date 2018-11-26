@@ -8,8 +8,27 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>여행을 다니며 사진을 찍고 글과 그림을 그리는 웹개발자입니다. 드론을 이용한 항공촬영과 스테빌라이저를 이용한 간소한 영상도 제작/편집 진행중이며 Web의 전반에 종사하고 WebSite, App에 필요한 API를 구성했으며 현재는 블록체인에 EOS 기반의 노드를 구성하는 서버를 설정하는 진행중입니다.</description>
-    <pubDate>Tue, 20 Nov 2018 05:25:43 GMT</pubDate>
+    <pubDate>Mon, 26 Nov 2018 07:05:09 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[Docker] 도커를 사용하는 기본 명령어</title>
+      <link>http://blog.manic.kr//article/docker</link>
+      <guid>http://blog.manic.kr//article/docker</guid>
+      <pubDate>Mon, 26 Nov 2018 06:43:31 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;h5 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linu
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<h3 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h3><h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://get.docker.com/ | sudo sh </span><br><span class="line"></span><br><span class="line"># apt-get 또는 yum  설치 할 경우 버전확인</span><br><span class="line">apt-get install docker.io</span><br><span class="line">#OR</span><br><span class="line">yum install docker</span><br></pre></td></tr></table></figure><h5 id="Version-확인"><a href="#Version-확인" class="headerlink" title="Version 확인"></a>Version 확인</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure><h5 id="sudo-없이-사용하기"><a href="#sudo-없이-사용하기" class="headerlink" title="sudo 없이 사용하기"></a>sudo 없이 사용하기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기</span><br><span class="line">sudo usermod -aG docker your-user # your-user 사용자에게 권한주기</span><br></pre></td></tr></table></figure><hr><h3 id="삭제하기"><a href="#삭제하기" class="headerlink" title="삭제하기"></a>삭제하기</h3><h5 id="컨테이너-삭제"><a href="#컨테이너-삭제" class="headerlink" title="컨테이너 삭제"></a>컨테이너 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker ps # 구동중인 컨테이너 확인</span><br><span class="line">docker ps -a # 컨테이너 전체 확인</span><br><span class="line">docker rm 컨테이너ID # 복수일경우 , 구분</span><br><span class="line">docker ps -a # 컨테이너 확인</span><br></pre></td></tr></table></figure><h5 id="이미지-삭제"><a href="#이미지-삭제" class="headerlink" title="이미지 삭제"></a>이미지 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker images # 이미지 확인</span><br><span class="line">docker rmi 이미지ID</span><br><span class="line">docker rmi -f 이미지 ID # -f 옵션으로 컨테이너 포함하여 강제삭제</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      <comments>http://blog.manic.kr//article/docker#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Redis Desktop Manager on Mac OSX</title>
