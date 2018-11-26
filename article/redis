@@ -20,10 +20,12 @@
 <meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
 <meta property="og:description" content="Redis Desktop Manager on Mac OSX Install the App  Press Command+Space and type Terminal and press enter/return key. Run in Terminal app:  1ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-20T05:25:43.649Z">
+<meta property="og:image" content="https://user-images.githubusercontent.com/22788288/48998142-e8071700-f195-11e8-9990-5ba93dc4ef4a.png">
+<meta property="og:updated_time" content="2018-11-26T07:11:32.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Redis Desktop Manager on Mac OSX">
 <meta name="twitter:description" content="Redis Desktop Manager on Mac OSX Install the App  Press Command+Space and type Terminal and press enter/return key. Run in Terminal app:  1ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/48998142-e8071700-f195-11e8-9990-5ba93dc4ef4a.png">
     
 
     <link rel="canonical" href="http://blog.manic.kr/article/redis">
@@ -371,7 +373,7 @@ ga('send', 'pageview');
                             <a href="/article/docker" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998076-9eb6c780-f195-11e8-95ec-f3f20e801f6a.png)" alt="[Docker] 도커를 사용하는 기본 명령어" class="thumbnail-image"></span>
     
     
 </a>
@@ -391,7 +393,7 @@ ga('send', 'pageview');
                             <a href="/article/redis" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998142-e8071700-f195-11e8-9990-5ba93dc4ef4a.png)" alt="Redis Desktop Manager on Mac OSX" class="thumbnail-image"></span>
     
     
 </a>

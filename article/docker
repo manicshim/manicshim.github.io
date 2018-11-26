@@ -20,10 +20,12 @@
 <meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
 <meta property="og:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-26T07:05:09.522Z">
+<meta property="og:image" content="https://user-images.githubusercontent.com/22788288/48998076-9eb6c780-f195-11e8-95ec-f3f20e801f6a.png">
+<meta property="og:updated_time" content="2018-11-26T07:10:09.083Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Docker] 도커를 사용하는 기본 명령어">
 <meta name="twitter:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/48998076-9eb6c780-f195-11e8-95ec-f3f20e801f6a.png">
     
 
     <link rel="canonical" href="http://blog.manic.kr/article/docker">
@@ -352,7 +354,7 @@ ga('send', 'pageview');
                             <a href="/article/docker" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998076-9eb6c780-f195-11e8-95ec-f3f20e801f6a.png)" alt="[Docker] 도커를 사용하는 기본 명령어" class="thumbnail-image"></span>
     
     
 </a>
@@ -372,7 +374,7 @@ ga('send', 'pageview');
                             <a href="/article/redis" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998142-e8071700-f195-11e8-9990-5ba93dc4ef4a.png)" alt="Redis Desktop Manager on Mac OSX" class="thumbnail-image"></span>
     
     
 </a>
