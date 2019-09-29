@@ -4,7 +4,7 @@
 
     <sitemap>
         <loc>http://blog.manic.kr/post-sitemap.xml</loc>
-        <lastmod>2018-11-26T07:27:50.698Z</lastmod>
+        <lastmod>2018-12-07T03:06:01.603Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -14,12 +14,12 @@
 
     <sitemap>
         <loc>http://blog.manic.kr/category-sitemap.xml</loc>
-        <lastmod>2018-11-05T06:29:49.523Z</lastmod>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.manic.kr/tag-sitemap.xml</loc>
-        <lastmod>2018-11-05T06:29:49.523Z</lastmod>
+        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
     </sitemap>
 
 </sitemapindex>

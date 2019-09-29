@@ -6,32 +6,32 @@
     
 
     
-    <title>[Docker] 도커를 사용하는 기본 명령어 | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
+    <title>[Docker] 도커를 사용하는 기본 명령어 | 하늘을 사랑하던 소년 - blog.manic.kr</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
         <meta name="keywords" content="docker,system,linux">
     
-    <meta name="description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
+    <meta name="description" content="설치#Linux#123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인#1docker version sudo 없이 사용하기#12sudo usermod -aG dock">
 <meta name="keywords" content="docker,system,linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[Docker] 도커를 사용하는 기본 명령어">
 <meta property="og:url" content="http://blog.manic.kr/article/docker">
-<meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta property="og:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
+<meta property="og:site_name" content="하늘을 사랑하던 소년 - blog.manic.kr">
+<meta property="og:description" content="설치#Linux#123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인#1docker version sudo 없이 사용하기#12sudo usermod -aG dock">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png">
-<meta property="og:updated_time" content="2018-11-26T07:27:50.698Z">
+<meta property="og:updated_time" content="2018-12-07T03:05:38.104Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Docker] 도커를 사용하는 기본 명령어">
-<meta name="twitter:description" content="설치Linux123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인1docker version sudo 없이 사용하기12sudo usermod -aG docker $">
+<meta name="twitter:description" content="설치#Linux#123456curl -fsSL https://get.docker.com/ | sudo sh # apt-get 또는 yum  설치 할 경우 버전확인apt-get install docker.io#ORyum install docker Version 확인#1docker version sudo 없이 사용하기#12sudo usermod -aG dock">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png">
     
 
     <link rel="canonical" href="http://blog.manic.kr/article/docker">
 
     
-        <link rel="alternate" href="/rss2.xml" title="어느 웹개발자의 여행사진 일기장 - manic.kr" type="application/atom+xml">
+        <link rel="alternate" href="/rss2.xml" title="하늘을 사랑하던 소년 - blog.manic.kr" type="application/atom+xml">
     
 
     
@@ -94,7 +94,7 @@ ga('send', 'pageview');
                                     <a class="main-nav-list-link" href="/">main</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/etc/">etc</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/trip/">trip</a></li></ul></li></ul>
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/">editor</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/calligraphy/">calligraphy</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/essay/">essay</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/thought/">thought</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/">recreator</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/director/">director</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/">tripper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/ocean/">ocean</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item">
                                     <a class="main-nav-list-link" href="/about">about</a>
@@ -153,7 +153,7 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/system/">system</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/system/docker/">docker</a>
+    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/system/">system</a>
     </h1>
 </div>
 
@@ -192,19 +192,19 @@ ga('send', 'pageview');
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h3 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h3><h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://get.docker.com/ | sudo sh </span><br><span class="line"></span><br><span class="line"># apt-get 또는 yum  설치 할 경우 버전확인</span><br><span class="line">apt-get install docker.io</span><br><span class="line">#OR</span><br><span class="line">yum install docker</span><br></pre></td></tr></table></figure>
-<h5 id="Version-확인"><a href="#Version-확인" class="headerlink" title="Version 확인"></a>Version 확인</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure>
-<h5 id="sudo-없이-사용하기"><a href="#sudo-없이-사용하기" class="headerlink" title="sudo 없이 사용하기"></a>sudo 없이 사용하기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기</span><br><span class="line">sudo usermod -aG docker your-user # your-user 사용자에게 권한주기</span><br></pre></td></tr></table></figure>
+            <h3><span id="seolci">설치</span><a href="#seolci" class="header-anchor">#</a></h3><h5><span id="linux">Linux</span><a href="#linux" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://get.docker.com/ | sudo sh </span><br><span class="line"></span><br><span class="line"># apt-get 또는 yum  설치 할 경우 버전확인</span><br><span class="line">apt-get install docker.io</span><br><span class="line">#OR</span><br><span class="line">yum install docker</span><br></pre></td></tr></table></figure>
+<h5><span id="version-hwagin">Version 확인</span><a href="#version-hwagin" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure>
+<h5><span id="sudo-eobsi-sayonghagi">sudo 없이 사용하기</span><a href="#sudo-eobsi-sayonghagi" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기</span><br><span class="line">sudo usermod -aG docker your-user # your-user 사용자에게 권한주기</span><br></pre></td></tr></table></figure>
 <hr>
-<h3 id="삭제하기"><a href="#삭제하기" class="headerlink" title="삭제하기"></a>삭제하기</h3><h5 id="컨테이너-삭제"><a href="#컨테이너-삭제" class="headerlink" title="컨테이너 삭제"></a>컨테이너 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker ps # 구동중인 컨테이너 확인</span><br><span class="line">docker ps -a # 컨테이너 전체 확인</span><br><span class="line">docker rm 컨테이너ID # 복수일경우 , 구분</span><br><span class="line">docker ps -a # 컨테이너 확인</span><br></pre></td></tr></table></figure>
-<h5 id="이미지-삭제"><a href="#이미지-삭제" class="headerlink" title="이미지 삭제"></a>이미지 삭제</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker images # 이미지 확인</span><br><span class="line">docker rmi 이미지ID</span><br><span class="line">docker rmi -f 이미지 ID # -f 옵션으로 컨테이너 포함하여 강제삭제</span><br></pre></td></tr></table></figure>
+<h3><span id="sagjehagi">삭제하기</span><a href="#sagjehagi" class="header-anchor">#</a></h3><h5><span id="keonteineo-sagje">컨테이너 삭제</span><a href="#keonteineo-sagje" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker ps # 구동중인 컨테이너 확인</span><br><span class="line">docker ps -a # 컨테이너 전체 확인</span><br><span class="line">docker rm 컨테이너ID # 복수일경우 , 구분</span><br><span class="line">docker ps -a # 컨테이너 확인</span><br></pre></td></tr></table></figure>
+<h5><span id="imiji-sagje">이미지 삭제</span><a href="#imiji-sagje" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker images # 이미지 확인</span><br><span class="line">docker rmi 이미지ID</span><br><span class="line">docker rmi -f 이미지ID # -f , --force 옵션으로 컨테이너 포함하여 강제삭제</span><br></pre></td></tr></table></figure>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="http://blog.manic.kr/article/docker" data-id="cjoxydwtu0002sxn35me9moen" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/docker" data-id="cjpdg7v3u00048in31rj4019i" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -326,6 +326,16 @@ ga('send', 'pageview');
         
 <nav id="article-nav">
     
+        <a href="/article/recreative" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            [Director] 창조보다 새로운것은 재창조
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
     
         <a href="/article/redis" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">older</strong>
@@ -351,10 +361,10 @@ ga('send', 'pageview');
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/docker" class="thumbnail">
+                            <a href="/article/docker-registry" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[Docker] 도커를 사용하는 기본 명령어" class="thumbnail-image"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[docker] registry 구성방법" class="thumbnail-image"></span>
     
     
 </a>
@@ -363,18 +373,18 @@ ga('send', 'pageview');
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
-                            <p class="item-title"><a href="/article/docker" class="title">[Docker] 도커를 사용하는 기본 명령어</a></p>
-                            <p class="item-date"><time datetime="2018-11-26T06:43:31.000Z" itemprop="datePublished">2018-11-26</time></p>
+                            <p class="item-title"><a href="/article/docker-registry" class="title">[docker] registry 구성방법</a></p>
+                            <p class="item-date"><time datetime="2018-12-06T08:08:05.000Z" itemprop="datePublished">2018-12-06</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/redis" class="thumbnail">
+                            <a href="/article/eng" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998860-2ac9ee80-f198-11e8-9234-b9413b27630f.png)" alt="Redis Desktop Manager on Mac OSX" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -382,19 +392,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/database/">database</a></p>
-                            <p class="item-title"><a href="/article/redis" class="title">Redis Desktop Manager on Mac OSX</a></p>
-                            <p class="item-date"><time datetime="2018-11-20T05:13:08.000Z" itemprop="datePublished">2018-11-20</time></p>
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/article/eng" class="title">eng</a></p>
+                            <p class="item-date"><time datetime="2018-11-30T06:39:00.000Z" itemprop="datePublished">2018-11-30</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/eos-centos" class="thumbnail">
+                            <a href="/article/platform" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png)" alt="[EOS.IO] Centos7 - EOS 설치하기" class="thumbnail-image"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/49204792-59da9d00-f3f0-11e8-9e38-c048256aaad4.jpg)" alt="[생각사전] 플랫폼 전쟁" class="thumbnail-image"></span>
     
     
 </a>
@@ -402,19 +412,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/blockchain/">blockchain</a></p>
-                            <p class="item-title"><a href="/article/eos-centos" class="title">[EOS.IO] Centos7 - EOS 설치하기</a></p>
-                            <p class="item-date"><time datetime="2018-11-13T01:34:16.000Z" itemprop="datePublished">2018-11-13</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/editor/">editor</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/editor/thought/">thought</a></p>
+                            <p class="item-title"><a href="/article/platform" class="title">[생각사전] 플랫폼 전쟁</a></p>
+                            <p class="item-date"><time datetime="2018-11-29T05:30:12.000Z" itemprop="datePublished">2018-11-29</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/eos-io" class="thumbnail">
+                            <a href="/article/spam-mail-check" class="thumbnail">
     
     
-        <span style="background-image:url(/thumb/eos.png)" alt="[EOS.IO] 설치 및 실행" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -422,19 +432,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/blockchain/">blockchain</a></p>
-                            <p class="item-title"><a href="/article/eos-io" class="title">[EOS.IO] 설치 및 실행</a></p>
-                            <p class="item-date"><time datetime="2018-11-07T01:14:35.000Z" itemprop="datePublished">2018-11-07</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
+                            <p class="item-title"><a href="/article/spam-mail-check" class="title">Sendmail - Spam 발송 계정 및 IP 확인하기</a></p>
+                            <p class="item-date"><time datetime="2018-11-28T06:17:49.000Z" itemprop="datePublished">2018-11-28</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/trip-sea2" class="thumbnail">
+                            <a href="/article/recreative" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/47979823-506b5700-e108-11e8-9f44-bd572619eb03.png)" alt="[여행] 가을바다의 낭만을 떠나다-2부" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -442,9 +452,9 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/trip/">trip</a></p>
-                            <p class="item-title"><a href="/article/trip-sea2" class="title">[여행] 가을바다의 낭만을 떠나다-2부</a></p>
-                            <p class="item-date"><time datetime="2018-11-05T05:33:03.000Z" itemprop="datePublished">2018-11-05</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/recreator/">recreator</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/recreator/director/">director</a></p>
+                            <p class="item-title"><a href="/article/recreative" class="title">[Director] 창조보다 새로운것은 재창조</a></p>
+                            <p class="item-date"><time datetime="2018-11-26T09:03:09.000Z" itemprop="datePublished">2018-11-26</time></p>
                         </div>
                     </li>
                 
@@ -457,7 +467,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/eos/">eos</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/redis/">redis</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/etc/">etc</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/docker/">docker</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/trip/">trip</a><span class="category-list-count">2</span></li></ul></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/calligraphy/">calligraphy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/essay/">essay</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/thought/">thought</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/">recreator</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/director/">director</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/">tripper</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/ocean/">ocean</a><span class="category-list-count">2</span></li></ul></li></ul>
         </div>
     </div>
 
@@ -467,7 +477,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">4</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">5</span></li></ul>
         </div>
     </div>
 
@@ -477,7 +487,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/blockchain/" style="font-size: 20px;">blockchain</a> <a href="/tags/blog/" style="font-size: 20px;">blog</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 20px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/eos/" style="font-size: 20px;">eos</a> <a href="/tags/eos-io/" style="font-size: 20px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 20px;">keosd</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 20px;">nodeos</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 10px;">system</a> <a href="/tags/trip/" style="font-size: 10px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/가을/" style="font-size: 20px;">가을</a> <a href="/tags/노울/" style="font-size: 20px;">노울</a> <a href="/tags/바다/" style="font-size: 20px;">바다</a> <a href="/tags/블록체인/" style="font-size: 20px;">블록체인</a> <a href="/tags/여행/" style="font-size: 20px;">여행</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a> <a href="/tags/일몰/" style="font-size: 20px;">일몰</a> <a href="/tags/파도/" style="font-size: 20px;">파도</a>
+            <a href="/tags/after-grow/" style="font-size: 15px;">after grow</a> <a href="/tags/autumn/" style="font-size: 15px;">autumn</a> <a href="/tags/blockchain/" style="font-size: 15px;">blockchain</a> <a href="/tags/blog/" style="font-size: 15px;">blog</a> <a href="/tags/breaker/" style="font-size: 15px;">breaker</a> <a href="/tags/calligraphy/" style="font-size: 10px;">calligraphy</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 15px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/creative/" style="font-size: 10px;">creative</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/director/" style="font-size: 10px;">director</a> <a href="/tags/docker/" style="font-size: 15px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/editor/" style="font-size: 10px;">editor</a> <a href="/tags/eos/" style="font-size: 15px;">eos</a> <a href="/tags/eos-io/" style="font-size: 15px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 15px;">keosd</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/mail/" style="font-size: 10px;">mail</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 15px;">nodeos</a> <a href="/tags/ocean/" style="font-size: 15px;">ocean</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/platform/" style="font-size: 10px;">platform</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/recreative/" style="font-size: 10px;">recreative</a> <a href="/tags/recreator/" style="font-size: 10px;">recreator</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/sendmail/" style="font-size: 10px;">sendmail</a> <a href="/tags/spam/" style="font-size: 10px;">spam</a> <a href="/tags/sunset/" style="font-size: 15px;">sunset</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 15px;">system</a> <a href="/tags/trip/" style="font-size: 20px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/블록체인/" style="font-size: 15px;">블록체인</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a>
         </div>
     </div>
 
@@ -509,6 +519,16 @@ ga('send', 'pageview');
         </div>
     </div>
 </footer>
+
+<script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">
+    Total <span id="busuanzi_value_site_pv"></span> views
+</span>
+
+<span id="busuanzi_container_site_uv">
+  You got <span id="busuanzi_value_site_uv"></span> visitors
+</span>
+
 
         
     

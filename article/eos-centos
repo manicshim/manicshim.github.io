@@ -6,32 +6,32 @@
     
 
     
-    <title>[EOS.IO] Centos7 - EOS 설치하기 | 어느 웹개발자의 여행사진 일기장 - manic.kr</title>
+    <title>[EOS.IO] Centos7 - EOS 설치하기 | 하늘을 사랑하던 소년 - blog.manic.kr</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
         <meta name="keywords" content="blockchain,eos,eos.io,nodeos,cleos,keosd,블록체인,centos">
     
-    <meta name="description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
+    <meta name="description" content="Centos 7 - EOS 설치#역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치#1. 설치환경#Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기#12">
 <meta name="keywords" content="blockchain,eos,eos.io,nodeos,cleos,keosd,블록체인,centos">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[EOS.IO] Centos7 - EOS 설치하기">
 <meta property="og:url" content="http://blog.manic.kr/article/eos-centos">
-<meta property="og:site_name" content="어느 웹개발자의 여행사진 일기장 - manic.kr">
-<meta property="og:description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
+<meta property="og:site_name" content="하늘을 사랑하던 소년 - blog.manic.kr">
+<meta property="og:description" content="Centos 7 - EOS 설치#역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치#1. 설치환경#Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기#12">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png">
-<meta property="og:updated_time" content="2018-11-13T02:28:53.879Z">
+<meta property="og:updated_time" content="2018-12-07T03:05:14.812Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[EOS.IO] Centos7 - EOS 설치하기">
-<meta name="twitter:description" content="Centos 7 - EOS 설치역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치1. 설치환경Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기12345g">
+<meta name="twitter:description" content="Centos 7 - EOS 설치#역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다길라잡이 아니고 참고 자료로 이용되길 바라며  EOS.IO - centos 7 설치#1. 설치환경#Mem: 15GOS: CentOS Linux 7 (Core)Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64  2. 소스내려받기#12">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png">
     
 
     <link rel="canonical" href="http://blog.manic.kr/article/eos-centos">
 
     
-        <link rel="alternate" href="/rss2.xml" title="어느 웹개발자의 여행사진 일기장 - manic.kr" type="application/atom+xml">
+        <link rel="alternate" href="/rss2.xml" title="하늘을 사랑하던 소년 - blog.manic.kr" type="application/atom+xml">
     
 
     
@@ -94,7 +94,7 @@ ga('send', 'pageview');
                                     <a class="main-nav-list-link" href="/">main</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/etc/">etc</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/trip/">trip</a></li></ul></li></ul>
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/">editor</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/calligraphy/">calligraphy</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/essay/">essay</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/thought/">thought</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/">recreator</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/director/">director</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/">tripper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/ocean/">ocean</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item">
                                     <a class="main-nav-list-link" href="/about">about</a>
@@ -153,7 +153,7 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/">blockchain</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/eos/">eos</a>
+    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/">blockchain</a>
     </h1>
 </div>
 
@@ -192,13 +192,13 @@ ga('send', 'pageview');
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h1 id="Centos-7-EOS-설치"><a href="#Centos-7-EOS-설치" class="headerlink" title="Centos 7 - EOS 설치"></a>Centos 7 - EOS 설치</h1><p>역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다<br>길라잡이 아니고 참고 자료로 이용되길 바라며</p>
+            <h1><span id="centos-7-eos-seolci">Centos 7 - EOS 설치</span><a href="#centos-7-eos-seolci" class="header-anchor">#</a></h1><p>역시 이또한 자료가 많지않아 직접 설치했던 기록들을 남긴다<br>길라잡이 아니고 참고 자료로 이용되길 바라며</p>
 <hr>
-<h3 id="EOS-IO-centos-7-설치"><a href="#EOS-IO-centos-7-설치" class="headerlink" title="EOS.IO - centos 7 설치"></a>EOS.IO - centos 7 설치</h3><h5 id="1-설치환경"><a href="#1-설치환경" class="headerlink" title="1. 설치환경"></a>1. 설치환경</h5><p><code>Mem: 15G</code><br><code>OS: CentOS Linux 7 (Core)</code><br><code>Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64</code></p>
+<h3><span id="eos-io-centos-7-seolci">EOS.IO - centos 7 설치</span><a href="#eos-io-centos-7-seolci" class="header-anchor">#</a></h3><h5><span id="1-seolcihwangyeong">1. 설치환경</span><a href="#1-seolcihwangyeong" class="header-anchor">#</a></h5><p><code>Mem: 15G</code><br><code>OS: CentOS Linux 7 (Core)</code><br><code>Kernel: Kernel: Linux 3.10.0-862.14.4.el7.x86_64</code></p>
 <p><img src="https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png" alt="Centos7 설치환경"></p>
-<h5 id="2-소스내려받기"><a href="#2-소스내려받기" class="headerlink" title="2. 소스내려받기"></a>2. 소스내려받기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/EOSIO/eos --recursive</span><br><span class="line">cd eos </span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">sudo yum update</span><br><span class="line">./eosio_build.sh -s EOS</span><br></pre></td></tr></table></figure>
+<h5><span id="2-soseunaeryeobadgi">2. 소스내려받기</span><a href="#2-soseunaeryeobadgi" class="header-anchor">#</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/EOSIO/eos --recursive</span><br><span class="line">cd eos </span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">sudo yum update</span><br><span class="line">./eosio_build.sh -s EOS</span><br></pre></td></tr></table></figure>
 <p><img src="https://user-images.githubusercontent.com/22788288/48385875-8ffef800-e733-11e8-88cc-7c360e2ae256.png" alt="빌드 완료"></p>
-<h3 id="빌드확인"><a href="#빌드확인" class="headerlink" title="빌드확인"></a>빌드확인</h3><p>Ubuntu 와 동일하다<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$&#123;HOME&#125;/opt/mongodb/bin:$PATH</span><br><span class="line">~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &amp;</span><br><span class="line">cd ~/eos/build</span><br><span class="line">sudo make test</span><br></pre></td></tr></table></figure></p>
+<h3><span id="bildeuhwagin">빌드확인</span><a href="#bildeuhwagin" class="header-anchor">#</a></h3><p>Ubuntu 와 동일하다<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$&#123;HOME&#125;/opt/mongodb/bin:$PATH</span><br><span class="line">~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &amp;</span><br><span class="line">cd ~/eos/build</span><br><span class="line">sudo make test</span><br></pre></td></tr></table></figure></p>
 <p>테스트도 시간은 10여분 정도 소요되는데 왜 오류가 자꾸 나는지는 검토중이다</p>
 <p>그리고 중요부분</p>
 <blockquote>
@@ -206,10 +206,10 @@ ga('send', 'pageview');
 </blockquote>
 <p><code>~/eos/build</code> 디렉터리에서 <code>sudo make install</code>을 실행해서 설치하면<br>실행 파일이 v1.1.0 부터는 <code>/usr/local/eosio/bin</code>에 설치된다<br>따라서,<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo update-alternatives --install /usr/local/bin/nodeos nodeos /usr/local/eosio/bin/nodeos 1</span><br><span class="line">sudo update-alternatives --install /usr/local/bin/cleos cleos /usr/local/eosio/bin/cleos 1</span><br></pre></td></tr></table></figure></p>
 <p>와 같이 해줘야 PATH 설정 없이도 편리하게 사용할 수 있다</p>
-<h3 id="EOS-IO-nodeos-실행"><a href="#EOS-IO-nodeos-실행" class="headerlink" title="EOS.IO - nodeos 실행"></a>EOS.IO - nodeos 실행</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
+<h3><span id="eos-io-nodeos-silhaeng">EOS.IO - nodeos 실행</span><a href="#eos-io-nodeos-silhaeng" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
 <p>블록생성이 확인된다</p>
 <p><img src="https://user-images.githubusercontent.com/22788288/48386898-e588d400-e736-11e8-8fec-99cfec2a21e6.png" alt="주기적으로 블록이 생성됨"></p>
-<h3 id="EOS-IO-cleos-확인"><a href="#EOS-IO-cleos-확인" class="headerlink" title="EOS.IO - cleos 확인"></a>EOS.IO - cleos 확인</h3><p><code>cleos get info</code> 명령어를 통해 아래와 같이 확인한다</p>
+<h3><span id="eos-io-cleos-hwagin">EOS.IO - cleos 확인</span><a href="#eos-io-cleos-hwagin" class="header-anchor">#</a></h3><p><code>cleos get info</code> 명령어를 통해 아래와 같이 확인한다</p>
 <p><img src="https://user-images.githubusercontent.com/22788288/48386897-e588d400-e736-11e8-8465-940180f329aa.png" alt="EOS 노드의 정보가 출력됨"></p>
 
         </div>
@@ -218,7 +218,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/eos-centos" data-id="cjoxydwtz0005sxn37t8njlcb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/eos-centos" data-id="cjpdg7v3w00068in36j42wivn" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -375,10 +375,10 @@ ga('send', 'pageview');
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/docker" class="thumbnail">
+                            <a href="/article/docker-registry" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[Docker] 도커를 사용하는 기본 명령어" class="thumbnail-image"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[docker] registry 구성방법" class="thumbnail-image"></span>
     
     
 </a>
@@ -387,18 +387,18 @@ ga('send', 'pageview');
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
-                            <p class="item-title"><a href="/article/docker" class="title">[Docker] 도커를 사용하는 기본 명령어</a></p>
-                            <p class="item-date"><time datetime="2018-11-26T06:43:31.000Z" itemprop="datePublished">2018-11-26</time></p>
+                            <p class="item-title"><a href="/article/docker-registry" class="title">[docker] registry 구성방법</a></p>
+                            <p class="item-date"><time datetime="2018-12-06T08:08:05.000Z" itemprop="datePublished">2018-12-06</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/redis" class="thumbnail">
+                            <a href="/article/eng" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998860-2ac9ee80-f198-11e8-9234-b9413b27630f.png)" alt="Redis Desktop Manager on Mac OSX" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -406,19 +406,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/database/">database</a></p>
-                            <p class="item-title"><a href="/article/redis" class="title">Redis Desktop Manager on Mac OSX</a></p>
-                            <p class="item-date"><time datetime="2018-11-20T05:13:08.000Z" itemprop="datePublished">2018-11-20</time></p>
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/article/eng" class="title">eng</a></p>
+                            <p class="item-date"><time datetime="2018-11-30T06:39:00.000Z" itemprop="datePublished">2018-11-30</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/eos-centos" class="thumbnail">
+                            <a href="/article/platform" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48385564-55e12680-e732-11e8-9f53-136f0933b3e5.png)" alt="[EOS.IO] Centos7 - EOS 설치하기" class="thumbnail-image"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/49204792-59da9d00-f3f0-11e8-9e38-c048256aaad4.jpg)" alt="[생각사전] 플랫폼 전쟁" class="thumbnail-image"></span>
     
     
 </a>
@@ -426,19 +426,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/blockchain/">blockchain</a></p>
-                            <p class="item-title"><a href="/article/eos-centos" class="title">[EOS.IO] Centos7 - EOS 설치하기</a></p>
-                            <p class="item-date"><time datetime="2018-11-13T01:34:16.000Z" itemprop="datePublished">2018-11-13</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/editor/">editor</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/editor/thought/">thought</a></p>
+                            <p class="item-title"><a href="/article/platform" class="title">[생각사전] 플랫폼 전쟁</a></p>
+                            <p class="item-date"><time datetime="2018-11-29T05:30:12.000Z" itemprop="datePublished">2018-11-29</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/eos-io" class="thumbnail">
+                            <a href="/article/spam-mail-check" class="thumbnail">
     
     
-        <span style="background-image:url(/thumb/eos.png)" alt="[EOS.IO] 설치 및 실행" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -446,19 +446,19 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/blockchain/">blockchain</a></p>
-                            <p class="item-title"><a href="/article/eos-io" class="title">[EOS.IO] 설치 및 실행</a></p>
-                            <p class="item-date"><time datetime="2018-11-07T01:14:35.000Z" itemprop="datePublished">2018-11-07</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
+                            <p class="item-title"><a href="/article/spam-mail-check" class="title">Sendmail - Spam 발송 계정 및 IP 확인하기</a></p>
+                            <p class="item-date"><time datetime="2018-11-28T06:17:49.000Z" itemprop="datePublished">2018-11-28</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/article/trip-sea2" class="thumbnail">
+                            <a href="/article/recreative" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/47979823-506b5700-e108-11e8-9f44-bd572619eb03.png)" alt="[여행] 가을바다의 낭만을 떠나다-2부" class="thumbnail-image"></span>
+        <span class="thumbnail-image thumbnail-none"></span>
     
     
 </a>
@@ -466,9 +466,9 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/photographer/">photographer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/photographer/trip/">trip</a></p>
-                            <p class="item-title"><a href="/article/trip-sea2" class="title">[여행] 가을바다의 낭만을 떠나다-2부</a></p>
-                            <p class="item-date"><time datetime="2018-11-05T05:33:03.000Z" itemprop="datePublished">2018-11-05</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/recreator/">recreator</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/recreator/director/">director</a></p>
+                            <p class="item-title"><a href="/article/recreative" class="title">[Director] 창조보다 새로운것은 재창조</a></p>
+                            <p class="item-date"><time datetime="2018-11-26T09:03:09.000Z" itemprop="datePublished">2018-11-26</time></p>
                         </div>
                     </li>
                 
@@ -481,7 +481,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/eos/">eos</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/redis/">redis</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/etc/">etc</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/docker/">docker</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/trip/">trip</a><span class="category-list-count">2</span></li></ul></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/calligraphy/">calligraphy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/essay/">essay</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/thought/">thought</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/">recreator</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/director/">director</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/">tripper</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/ocean/">ocean</a><span class="category-list-count">2</span></li></ul></li></ul>
         </div>
     </div>
 
@@ -491,7 +491,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">4</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">5</span></li></ul>
         </div>
     </div>
 
@@ -501,7 +501,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/blockchain/" style="font-size: 20px;">blockchain</a> <a href="/tags/blog/" style="font-size: 20px;">blog</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 20px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/eos/" style="font-size: 20px;">eos</a> <a href="/tags/eos-io/" style="font-size: 20px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 20px;">keosd</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 20px;">nodeos</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 10px;">system</a> <a href="/tags/trip/" style="font-size: 10px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/가을/" style="font-size: 20px;">가을</a> <a href="/tags/노울/" style="font-size: 20px;">노울</a> <a href="/tags/바다/" style="font-size: 20px;">바다</a> <a href="/tags/블록체인/" style="font-size: 20px;">블록체인</a> <a href="/tags/여행/" style="font-size: 20px;">여행</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a> <a href="/tags/일몰/" style="font-size: 20px;">일몰</a> <a href="/tags/파도/" style="font-size: 20px;">파도</a>
+            <a href="/tags/after-grow/" style="font-size: 15px;">after grow</a> <a href="/tags/autumn/" style="font-size: 15px;">autumn</a> <a href="/tags/blockchain/" style="font-size: 15px;">blockchain</a> <a href="/tags/blog/" style="font-size: 15px;">blog</a> <a href="/tags/breaker/" style="font-size: 15px;">breaker</a> <a href="/tags/calligraphy/" style="font-size: 10px;">calligraphy</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 15px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/creative/" style="font-size: 10px;">creative</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/director/" style="font-size: 10px;">director</a> <a href="/tags/docker/" style="font-size: 15px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/editor/" style="font-size: 10px;">editor</a> <a href="/tags/eos/" style="font-size: 15px;">eos</a> <a href="/tags/eos-io/" style="font-size: 15px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 15px;">keosd</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/mail/" style="font-size: 10px;">mail</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 15px;">nodeos</a> <a href="/tags/ocean/" style="font-size: 15px;">ocean</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/platform/" style="font-size: 10px;">platform</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/recreative/" style="font-size: 10px;">recreative</a> <a href="/tags/recreator/" style="font-size: 10px;">recreator</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/sendmail/" style="font-size: 10px;">sendmail</a> <a href="/tags/spam/" style="font-size: 10px;">spam</a> <a href="/tags/sunset/" style="font-size: 15px;">sunset</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 15px;">system</a> <a href="/tags/trip/" style="font-size: 20px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/블록체인/" style="font-size: 15px;">블록체인</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a>
         </div>
     </div>
 
@@ -533,6 +533,16 @@ ga('send', 'pageview');
         </div>
     </div>
 </footer>
+
+<script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">
+    Total <span id="busuanzi_value_site_pv"></span> views
+</span>
+
+<span id="busuanzi_container_site_uv">
+  You got <span id="busuanzi_value_site_uv"></span> visitors
+</span>
+
 
         
     
