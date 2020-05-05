@@ -269,7 +269,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/eos-io" data-id="ck9tx378r000btdn3suntf7y0" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/eos-io" data-id="ck9tzobj9000bbbn3duk09ppt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

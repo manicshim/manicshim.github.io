@@ -215,7 +215,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/docker-registry" data-id="ck9tx378k0005tdn3vdjpf34s" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/docker-registry" data-id="ck9tzobj30005bbn3efeq4ffs" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

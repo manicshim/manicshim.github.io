@@ -202,7 +202,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/spam-mail-check" data-id="ck9tx379k0010tdn3t3m3md2i" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/spam-mail-check" data-id="ck9tzobk30010bbn3ukhj6t0m" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
