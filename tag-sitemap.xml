@@ -311,27 +311,6 @@
     </url>
 
     <url>
-        <loc>http://blog.manic.kr/tags/trip/</loc>
-        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/cafe/</loc>
-        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/coffee/</loc>
-        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.manic.kr/tags/afternoon/</loc>
         <lastmod>2019-10-05T04:39:32.987Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -341,6 +320,41 @@
     <url>
         <loc>http://blog.manic.kr/tags/croissants/</loc>
         <lastmod>2019-10-05T04:39:32.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/trip/</loc>
+        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/cafe/</loc>
+        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/coffee/</loc>
+        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/spring/</loc>
+        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/tags/strawberry/</loc>
+        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
