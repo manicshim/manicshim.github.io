@@ -12,19 +12,19 @@
     
         <meta name="keywords" content="editor,platform">
     
-    <meta name="description" content="Platform [플랫폼]#사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석#필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본">
+    <meta name="description" content="Platform [플랫폼]사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본이었">
 <meta name="keywords" content="editor,platform">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[생각사전] 플랫폼 전쟁">
 <meta property="og:url" content="http://blog.manic.kr/article/platform">
 <meta property="og:site_name" content="하늘을 사랑하던 소년 - blog.manic.kr">
-<meta property="og:description" content="Platform [플랫폼]#사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석#필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본">
+<meta property="og:description" content="Platform [플랫폼]사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본이었">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://user-images.githubusercontent.com/22788288/49204792-59da9d00-f3f0-11e8-9e38-c048256aaad4.jpg">
-<meta property="og:updated_time" content="2018-11-29T09:05:11.192Z">
+<meta property="og:updated_time" content="2019-09-29T12:20:43.420Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[생각사전] 플랫폼 전쟁">
-<meta name="twitter:description" content="Platform [플랫폼]#사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석#필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본">
+<meta name="twitter:description" content="Platform [플랫폼]사전적의미의 플랫폼은 가차역 정도 겠지만 그 단어의 활용범위가 방대(?)하다  접근이 어려웠던 단어들의 재해석필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다 IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본이었">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/49204792-59da9d00-f3f0-11e8-9e38-c048256aaad4.jpg">
     
 
@@ -94,7 +94,7 @@ ga('send', 'pageview');
                                     <a class="main-nav-list-link" href="/">main</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/">editor</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/calligraphy/">calligraphy</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/essay/">essay</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/thought/">thought</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/">recreator</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/director/">director</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/">tripper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/ocean/">ocean</a></li></ul></li></ul>
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/">editor</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/calligraphy/">calligraphy</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/essay/">essay</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/thought/">thought</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/">recreator</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/director/">director</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/">tripper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/cafe/">cafe</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/ocean/">ocean</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item">
                                     <a class="main-nav-list-link" href="/about">about</a>
@@ -185,7 +185,9 @@ ga('send', 'pageview');
                 
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/editor/">editor</a>, <a class="tag-link" href="/tags/platform/">platform</a>
+        <a class="tag-link" href="/tags/editor/">editor</a>, <a class="tag-link" href="/tags/platform/">platform</a> 
+	<i class="fa fa-eye"></i>
+	<span id="pageviews">Pageviews: <font class="count">--<font></font></font></span>
     </div>
 
             </div>
@@ -193,9 +195,9 @@ ga('send', 'pageview');
         
         <div class="article-entry" itemprop="articleBody">
             <p><img src="https://user-images.githubusercontent.com/22788288/49204792-59da9d00-f3f0-11e8-9e38-c048256aaad4.jpg" alt="platform 전쟁"></p>
-<h3><span id="platform-peulraespom">Platform [플랫폼]</span><a href="#platform-peulraespom" class="header-anchor">#</a></h3><p>사전적의미의 <a href="https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%AB%ED%8F%BC" rel="external nofollow noopener noreferrer" target="_blank">플랫폼</a>은 <em>가차역</em> 정도 겠지만 그 단어의 활용범위가 방대(?)하다</p>
+<h3><span id="platform-플랫폼">Platform [플랫폼]</span></h3><p>사전적의미의 <a href="https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%AB%ED%8F%BC" rel="external nofollow noopener noreferrer" target="_blank">플랫폼</a>은 <em>가차역</em> 정도 겠지만 그 단어의 활용범위가 방대(?)하다</p>
 <hr>
-<h5><span id="jeobgeuni-eoryeoweossdeon-daneodeulyi-jaehaeseog">접근이 어려웠던 단어들의 재해석</span><a href="#jeobgeuni-eoryeoweossdeon-daneodeulyi-jaehaeseog" class="header-anchor">#</a></h5><p>필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다<br>Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다</p>
+<h5><span id="접근이-어려웠던-단어들의-재해석">접근이 어려웠던 단어들의 재해석</span></h5><p>필자는 워낙 돌머리라 이해되지 않는 단어의 개념을 잡기위해 두단어의 조합으로 접근했다<br>Plat + Form (땅 + 형태)정도의 해석이 가장 적당한 수준에 재해석이었다</p>
 <p>IT 용어들은 언제나 영문메뉴얼에 담긴 표기들이 기본이었고 </p>
 <ul>
 <li>그것들을 나름에 재해석으로 바꾸고 나서야<ol>
@@ -210,7 +212,7 @@ ga('send', 'pageview');
 <p>항상 그만한 재해석이 필요했으니 당장 능하게 사용 할수도 없을뿐더러<br>대충 배워 사용하기엔 늘 언발에 오줌누기 쉽상 이었던것이다</p>
 <p>어쩌면 <strong>생각사전</strong>이라기 보다 훗날에 필자가<br>이 글을 다시 봤을때 다시금 개념에 다른 관점이나 혹은<br>또다른 재해석을 갖기 위한 스스로의 잣대일수도 있겠다 싶다</p>
 <hr>
-<h5><span id="yugijeogeuro-yeongyeoldoeneun-yimideul">유기적으로 연결되는 의미들</span><a href="#yugijeogeuro-yeongyeoldoeneun-yimideul" class="header-anchor">#</a></h5><p>모든 단어엔 그만한 이유가 있고 접근했던 단어는 “땅의 형태, 종류” 였다</p>
+<h5><span id="유기적으로-연결되는-의미들">유기적으로 연결되는 의미들</span></h5><p>모든 단어엔 그만한 이유가 있고 접근했던 단어는 “땅의 형태, 종류” 였다</p>
 <blockquote>
 <p>모든 단어는 사람이 만들고 모든 일은 사람이 한다 </p>
 </blockquote>
@@ -220,7 +222,7 @@ ga('send', 'pageview');
 <p>사람은 사람끼리 연결하기위해 생각을 전달하는 표식에 <strong>언어</strong>를 만들어냈고 </p>
 <p>개개인을 하나의 뉴런(신경세포)라 가정했을때<br>그 시냅스를 만들어 내기위해 수많은 노력을 한것이다<br>반복하였을테고 실패하였을꺼고 적당히 성공하면서 그것들을 특정한 규칙을 정해냈을꺼고<br>보다 효율적인 학습과 전달방법을 연구했을것이다 결국 정형화된 틀 이었다</p>
 <hr>
-<h5><span id="peulraespom-hana-jaehaeseoghaneunde-cam-doladolawassda">플랫폼 하나 재해석하는데 참 돌아돌아왔다</span><a href="#peulraespom-hana-jaehaeseoghaneunde-cam-doladolawassda" class="header-anchor">#</a></h5><p>요리하는 사람에겐 주방이 하나의 창작플랫폼이다<br>공예를 하는 사람에겐 공방이 바로 창의플랫폼일것이고<br>운동하는 사람에겐 경기장이 바로 그들의 역동적 플랫폼일것이다</p>
+<h5><span id="플랫폼-하나-재해석하는데-참-돌아돌아왔다">플랫폼 하나 재해석하는데 참 돌아돌아왔다</span></h5><p>요리하는 사람에겐 주방이 하나의 창작플랫폼이다<br>공예를 하는 사람에겐 공방이 바로 창의플랫폼일것이고<br>운동하는 사람에겐 경기장이 바로 그들의 역동적 플랫폼일것이다</p>
 <ul>
 <li>자 그럼 이제  조금 다른 재해석의 접근<ol>
 <li>도구를 도구 답게 사용하는자, </li>
@@ -237,21 +239,21 @@ ga('send', 'pageview');
 <p>도구를 얼마나 도구답게 인식하고 쓸 수 있을지가 관건이다</p>
 <hr>
 <p><strong>P.S. 여기서 부터 잡설입니다</strong></p>
-<h5><span id="hyeogmyeonggaga-doelgeosinga-yeogseolgaga-doelgeosinga-anim-geunyang-eoneu-ddorai-heossoriinga">혁명가가 될것인가?역설가가 될것인가? 아님 그냥 어느 또라이 헛소리인가?</span><a href="#hyeogmyeonggaga-doelgeosinga-yeogseolgaga-doelgeosinga-anim-geunyang-eoneu-ddorai-heossoriinga" class="header-anchor">#</a></h5><p>전세계 수많은 사람들이 제각기 다른 생각과 다른 모습 다른 성격을 가진다<br>사람은 누구나 팔,다리,머리,다리 그리고 눈코입을 가졌으나 </p>
+<h5><span id="혁명가가-될것인가역설가가-될것인가-아님-그냥-어느-또라이-헛소리인가">혁명가가 될것인가?역설가가 될것인가? 아님 그냥 어느 또라이 헛소리인가?</span></h5><p>전세계 수많은 사람들이 제각기 다른 생각과 다른 모습 다른 성격을 가진다<br>사람은 누구나 팔,다리,머리,다리 그리고 눈코입을 가졌으나 </p>
 <blockquote>
-<p>제각이 다르게 생겼다 고로 생각도 똑같이 생긴 사람은 없다고 가정한다</p>
+<p>제각기 다르게 생겼다 고로 생각도 똑같이 생긴 사람은 없다고 가정한다</p>
 </blockquote>
 <p>적당한 정형화와 규칙성은 어디에나 필요하다<br>한나라가 가진 공산주의냐 민주주의냐 하는것도 고작 Operation System 같은 재해석이다<br>넘쳐나는 도구를 채득하느라 참으로 많은 시간을 할애했다</p>
 <p>이미 인간은 수많은 세월에 반복에서 또는 어제보다 나은 내일을 준비하기위해<br>지속인 발전했음은 누구나 다 학습해서 알고는 있지만<br>이 넘쳐나는 도구와 내가 정작 필요한 정보들 속에서<br>정작 내게 필요한 내가 적당한 정보만을 골라내는것은 실상 이세상 모두들의 몫이겠지</p>
 <hr>
-<h5><span id="gunggeugyi-peulraespom">궁극의 플랫폼</span><a href="#gunggeugyi-peulraespom" class="header-anchor">#</a></h5><p>주방에서 요리하는 어머니의 도마가 나무이건 플라스틱이건 혹은<br>최첨단 소재이건 이런것들이 아주 중요한 줄만 알았다<br>그래야만 맛있는 음식이 나오는건 아닌데도 말이지..</p>
+<h5><span id="궁극의-플랫폼">궁극의 플랫폼</span></h5><p>주방에서 요리하는 어머니의 도마가 나무이건 플라스틱이건 혹은<br>최첨단 소재이건 이런것들이 아주 중요한 줄만 알았다<br>그래야만 맛있는 음식이 나오는건 아닌데도 말이지..</p>
 <p>Web에 접근해서 수세월동안 늘 신기술을 배우고 아직도 영문메뉴얼이 힘들어<br>단어적인 재해석으로 더디게 공부하고 습득하고 있지만<br>비단 나보다 내선배들이 일궈놓은 괜찮은 플랫폼(이하 ‘도구’라 칭한다) 하나<br>제대로 쓰지도 못하지만 역설하건데 그 도구들이 말이지</p>
 <blockquote>
 <p>과연 평생을 지배하지는 않을것 이라는거다 </p>
 </blockquote>
 <p>필자가 새로운 플랫폼을 개발하게 될진 또 누가 예언할수없지 않은가?(개꿈일지도 모르지만)</p>
 <hr>
-<h5><span id="jubyeondeul-dulreobogo-jasinege-jibjunghagireul">주변들 둘러보고 자신에게 집중하기를</span><a href="#jubyeondeul-dulreobogo-jasinege-jibjunghagireul" class="header-anchor">#</a></h5><p>IT에 플랫폼하나 제대로 습득하기 어려워 핀잔에 글이라 적어보려 접근했지만<br>사실 주된 목적은 하나였다</p>
+<h5><span id="주변들-둘러보고-자신에게-집중하기를">주변들 둘러보고 자신에게 집중하기를</span></h5><p>IT에 플랫폼하나 제대로 습득하기 어려워 핀잔에 글이라 적어보려 접근했지만<br>사실 주된 목적은 하나였다</p>
 <p>넘쳐나는 도구에 치이지 말기를 멍청해서 더디게 학습해 보니<br>난 결국 도구를 쓰는 방법을 익히느라 바빴지<br>정작 그 도구를 만들어내는 사람들이 존재하는한 나는 여전히 멍청한 제자리를 돌것같다</p>
 <p>자기비하적인 발언일수도 있겠으나<br>그래도 이 문제를 깨달게 되는데 까지 벌써 10년이 넘게 걸렸다 참으로 오래 걸린듯 하다</p>
 <blockquote>
@@ -261,14 +263,14 @@ ga('send', 'pageview');
 <p>결국 얼마나 인간이 인간과 효율적인 생각전달을 할수있고<br>유기적으로 같이 돌아갈수있는 네크워크를 구성하는지<br>아직도 매일아침 변해 가는 모습이 그저 신비롭기만하다</p>
 <p>그 지옥같은 폭발점 한 가운데 서있으며 아직도 도구에 파묻혀 살고있다</p>
 <hr>
-<h5><span id="duseoeobsneun-geulyi-ggeuteun">두서없는 글의 끝은</span><a href="#duseoeobsneun-geulyi-ggeuteun" class="header-anchor">#</a></h5><p>결국 사람이 사람과의 커넥션이다 </p>
+<h5><span id="두서없는-글의-끝은">두서없는 글의 끝은</span></h5><p>결국 사람이 사람과의 커넥션이다 </p>
 <ul>
 <li>얼마나 많은 기술을 배워 </li>
 <li>얼마나 많은 도구를 쓸줄아느냐 </li>
 <li>얼마나 대단한 테크놀로지와 </li>
 <li>얼마나 대단한 인프라를 구성했느냐가 </li>
 </ul>
-<h1><span id="naesalmyi-mogjeogi-aningeol-neomu-neujge-alassda">내삶의 목적이 아닌걸 너무 늦게 알았다</span><a href="#naesalmyi-mogjeogi-aningeol-neomu-neujge-alassda" class="header-anchor">#</a></h1><p>숟가락으로도 라면은 퍼먹을수 있다 단지 좀 아둔해보이고<br>이미 오래전 선배들이(?) 만들어준 젓가락이라는 가장 좋은 도구를 쓰는것 보단<br>오래걸릴지 모를 일이지만 말이다</p>
+<h1><span id="내삶의-목적이-아닌걸-너무-늦게-알았다">내삶의 목적이 아닌걸 너무 늦게 알았다</span></h1><p>숟가락으로도 라면은 퍼먹을수 있다 단지 좀 아둔해보이고<br>이미 오래전 선배들이(?) 만들어준 젓가락이라는 가장 좋은 도구를 쓰는것 보단<br>오래걸릴지 모를 일이지만 말이다</p>
 <p>괜찮은 땅덩어리 하나 만들어 놓고 정착하고 싶은 마음이다</p>
 <p>그것보다 더 당장의 욕심은 </p>
 <p>오늘 저녁식사는 같이 먹을래?!<br>이정도 질문을 받을수 있을 가치있는 사람이 되길 바란다 나스스로</p>
@@ -279,7 +281,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/platform" data-id="cjpdg7v4f000i8in31q4gvv0z" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/platform" data-id="ck9twce8m000n9sn3mctjh0lt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -436,6 +438,46 @@ ga('send', 'pageview');
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/article/opin" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/66249696-6814ea80-e772-11e9-99f6-756dec457d00.png)" alt="[카페] 오핀 (OPIN)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/opin" class="title">[카페] 오핀 (OPIN)</a></p>
+                            <p class="item-date"><time datetime="2019-10-05T04:18:21.000Z" itemprop="datePublished">2019-10-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/parcprive" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/66249336-a14a5c00-e76c-11e9-8090-a656dbeb032a.png)" alt="[카페] 파크프리베 (Parc Prive)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/parcprive" class="title">[카페] 파크프리베 (Parc Prive)</a></p>
+                            <p class="item-date"><time datetime="2019-10-05T03:32:49.000Z" itemprop="datePublished">2019-10-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/article/docker-registry" class="thumbnail">
     
     
@@ -493,46 +535,6 @@ ga('send', 'pageview');
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/article/spam-mail-check" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
-                            <p class="item-title"><a href="/article/spam-mail-check" class="title">Sendmail - Spam 발송 계정 및 IP 확인하기</a></p>
-                            <p class="item-date"><time datetime="2018-11-28T06:17:49.000Z" itemprop="datePublished">2018-11-28</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/article/recreative" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/recreator/">recreator</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/recreator/director/">director</a></p>
-                            <p class="item-title"><a href="/article/recreative" class="title">[Director] 창조보다 새로운것은 재창조</a></p>
-                            <p class="item-date"><time datetime="2018-11-26T09:03:09.000Z" itemprop="datePublished">2018-11-26</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -542,7 +544,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/calligraphy/">calligraphy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/essay/">essay</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/thought/">thought</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/">recreator</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/director/">director</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/">tripper</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/ocean/">ocean</a><span class="category-list-count">2</span></li></ul></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/calligraphy/">calligraphy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/essay/">essay</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/thought/">thought</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/">recreator</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/director/">director</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/">tripper</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/cafe/">cafe</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/ocean/">ocean</a><span class="category-list-count">2</span></li></ul></li></ul>
         </div>
     </div>
 
@@ -552,7 +554,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">5</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">5</span></li></ul>
         </div>
     </div>
 
@@ -562,13 +564,19 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/after-grow/" style="font-size: 15px;">after grow</a> <a href="/tags/autumn/" style="font-size: 15px;">autumn</a> <a href="/tags/blockchain/" style="font-size: 15px;">blockchain</a> <a href="/tags/blog/" style="font-size: 15px;">blog</a> <a href="/tags/breaker/" style="font-size: 15px;">breaker</a> <a href="/tags/calligraphy/" style="font-size: 10px;">calligraphy</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 15px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/creative/" style="font-size: 10px;">creative</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/director/" style="font-size: 10px;">director</a> <a href="/tags/docker/" style="font-size: 15px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/editor/" style="font-size: 10px;">editor</a> <a href="/tags/eos/" style="font-size: 15px;">eos</a> <a href="/tags/eos-io/" style="font-size: 15px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 15px;">keosd</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/mail/" style="font-size: 10px;">mail</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 15px;">nodeos</a> <a href="/tags/ocean/" style="font-size: 15px;">ocean</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/platform/" style="font-size: 10px;">platform</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/recreative/" style="font-size: 10px;">recreative</a> <a href="/tags/recreator/" style="font-size: 10px;">recreator</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/sendmail/" style="font-size: 10px;">sendmail</a> <a href="/tags/spam/" style="font-size: 10px;">spam</a> <a href="/tags/sunset/" style="font-size: 15px;">sunset</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 15px;">system</a> <a href="/tags/trip/" style="font-size: 20px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/블록체인/" style="font-size: 15px;">블록체인</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a>
+            <a href="/tags/after-grow/" style="font-size: 12.5px;">after grow</a> <a href="/tags/afternoon/" style="font-size: 10px;">afternoon</a> <a href="/tags/autumn/" style="font-size: 17.5px;">autumn</a> <a href="/tags/blockchain/" style="font-size: 12.5px;">blockchain</a> <a href="/tags/blog/" style="font-size: 12.5px;">blog</a> <a href="/tags/breaker/" style="font-size: 15px;">breaker</a> <a href="/tags/cafe/" style="font-size: 12.5px;">cafe</a> <a href="/tags/calligraphy/" style="font-size: 10px;">calligraphy</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 12.5px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/coffee/" style="font-size: 10px;">coffee</a> <a href="/tags/creative/" style="font-size: 10px;">creative</a> <a href="/tags/croissants/" style="font-size: 10px;">croissants</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/director/" style="font-size: 10px;">director</a> <a href="/tags/docker/" style="font-size: 12.5px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/editor/" style="font-size: 10px;">editor</a> <a href="/tags/eos/" style="font-size: 12.5px;">eos</a> <a href="/tags/eos-io/" style="font-size: 12.5px;">eos.io</a> <a href="/tags/eos설치/" style="font-size: 10px;">eos설치</a> <a href="/tags/keosd/" style="font-size: 12.5px;">keosd</a> <a href="/tags/linux/" style="font-size: 12.5px;">linux</a> <a href="/tags/mail/" style="font-size: 10px;">mail</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 12.5px;">nodeos</a> <a href="/tags/ocean/" style="font-size: 12.5px;">ocean</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/platform/" style="font-size: 10px;">platform</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/recreative/" style="font-size: 10px;">recreative</a> <a href="/tags/recreator/" style="font-size: 10px;">recreator</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/restaurant/" style="font-size: 10px;">restaurant</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/sendmail/" style="font-size: 10px;">sendmail</a> <a href="/tags/spam/" style="font-size: 10px;">spam</a> <a href="/tags/sunset/" style="font-size: 12.5px;">sunset</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 12.5px;">system</a> <a href="/tags/trip/" style="font-size: 20px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/블록체인/" style="font-size: 12.5px;">블록체인</a> <a href="/tags/이오스/" style="font-size: 10px;">이오스</a> <a href="/tags/이오스설치/" style="font-size: 10px;">이오스설치</a>
         </div>
     </div>
 
 
             
         
+	<div class="widget-wrap widget-list">
+		<h3 class="widget-title">Visitor</h3>
+		<div class="widget">
+		    <span id="visits">Visits: <font class="count">--<font></font></font></span>
+		</div>
+	</div>
     </div>
 </aside>
 
@@ -583,7 +591,7 @@ ga('send', 'pageview');
                 <h1 class="logo-wrap">
                     <a href="/" class="logo"></a>
                 </h1>
-                <p>Copyright &copy; 2018 <a href="mailto:id@manic.kr" target="_blank" rel="external nofollow noopener noreferrer">Manic Shim</a>. All Rights Reserved.</p>
+                <p>Copyright &copy; 2020 <a href="mailto:id@manic.kr" target="_blank" rel="external nofollow noopener noreferrer">Manic Shim</a>. All Rights Reserved.</p>
             </div>
             <div class="footer-plugins">
               
@@ -594,17 +602,6 @@ ga('send', 'pageview');
         </div>
     </div>
 </footer>
-
-<script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv">
-    Total <span id="busuanzi_value_site_pv"></span> views
-</span>
-
-<span id="busuanzi_container_site_uv">
-  You got <span id="busuanzi_value_site_uv"></span> visitors
-</span>
-
-
         
     
     <script>
@@ -648,4 +645,5 @@ ga('send', 'pageview');
 
     </div>
 </body>
-
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script src="/js/src/custom.js"></script>

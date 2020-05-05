@@ -9,105 +9,112 @@
 
     <url>
         <loc>http://blog.manic.kr/categories/developer/code/</loc>
-        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <lastmod>2018-11-05T06:31:29.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/editor/essay/</loc>
-        <lastmod>2018-11-26T09:25:07.926Z</lastmod>
+        <lastmod>2018-11-26T09:25:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/editor/calligraphy/</loc>
-        <lastmod>2018-11-26T09:26:46.889Z</lastmod>
+        <lastmod>2018-11-26T09:26:46.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/recreator/</loc>
-        <lastmod>2018-11-26T09:39:07.873Z</lastmod>
+        <lastmod>2018-11-26T09:39:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/recreator/director/</loc>
-        <lastmod>2018-11-26T09:39:07.873Z</lastmod>
+        <lastmod>2018-11-26T09:39:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/photographer/</loc>
-        <lastmod>2018-11-28T02:51:36.017Z</lastmod>
+        <lastmod>2018-11-28T02:51:36.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/photographer/landscape/</loc>
-        <lastmod>2018-11-28T02:51:36.017Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/editor/</loc>
-        <lastmod>2018-11-29T09:05:11.192Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/editor/thought/</loc>
-        <lastmod>2018-11-29T09:05:11.192Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/tripper/</loc>
-        <lastmod>2018-12-07T03:03:31.814Z</lastmod>
+        <lastmod>2018-11-28T02:51:36.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/tripper/ocean/</loc>
-        <lastmod>2018-12-07T03:03:31.814Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/developer/blockchain/</loc>
-        <lastmod>2018-12-07T03:05:20.293Z</lastmod>
+        <lastmod>2018-12-07T03:03:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/developer/database/</loc>
-        <lastmod>2018-12-07T03:05:29.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/categories/developer/</loc>
-        <lastmod>2018-12-07T03:06:01.603Z</lastmod>
+        <lastmod>2018-12-07T03:05:29.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/categories/developer/system/</loc>
-        <lastmod>2018-12-07T03:06:01.603Z</lastmod>
+        <lastmod>2018-12-07T03:06:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/editor/</loc>
+        <lastmod>2019-09-29T12:20:43.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/editor/thought/</loc>
+        <lastmod>2019-09-29T12:20:43.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/</loc>
+        <lastmod>2019-09-30T02:12:11.053Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/developer/blockchain/</loc>
+        <lastmod>2019-09-30T02:12:11.053Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/tripper/</loc>
+        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.manic.kr/categories/tripper/cafe/</loc>
+        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

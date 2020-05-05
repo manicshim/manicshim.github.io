@@ -4,22 +4,22 @@
 
     <sitemap>
         <loc>http://blog.manic.kr/post-sitemap.xml</loc>
-        <lastmod>2018-12-07T03:06:01.603Z</lastmod>
+        <lastmod>2019-10-05T04:39:32.987Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.manic.kr/page-sitemap.xml</loc>
-        <lastmod>2018-11-23T08:53:47.216Z</lastmod>
+        <lastmod>2018-11-23T08:53:47.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.manic.kr/category-sitemap.xml</loc>
-        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <lastmod>2018-11-05T06:31:29.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.manic.kr/tag-sitemap.xml</loc>
-        <lastmod>2018-11-05T06:31:29.950Z</lastmod>
+        <lastmod>2018-11-05T06:31:29.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>
