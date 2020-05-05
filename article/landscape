@@ -10,9 +10,9 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="photo,trip,sea">
+        <meta name="keywords" content="trip,photo,sea">
     
-    <meta name="keywords" content="photo,trip,sea">
+    <meta name="keywords" content="trip,photo,sea">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[풍경] 올림픽공원의 황화코스모스">
 <meta property="og:url" content="http://blog.manic.kr/article/landscape">
@@ -199,7 +199,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/landscape" data-id="ck9twi9kg000efrn32r2xo5pt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/landscape" data-id="ck9twouup000fjyn3m06uo98h" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

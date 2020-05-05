@@ -325,36 +325,36 @@
     </url>
 
     <url>
+        <loc>http://blog.manic.kr/tags/spring/</loc>
+        <lastmod>2020-05-05T12:48:19.844Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://blog.manic.kr/tags/trip/</loc>
-        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <lastmod>2020-05-05T12:48:19.844Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/tags/cafe/</loc>
-        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <lastmod>2020-05-05T12:48:19.844Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/tags/coffee/</loc>
-        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.manic.kr/tags/spring/</loc>
-        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <lastmod>2020-05-05T12:48:19.844Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.manic.kr/tags/strawberry/</loc>
-        <lastmod>2020-05-05T12:42:42.644Z</lastmod>
+        <lastmod>2020-05-05T12:48:19.844Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
