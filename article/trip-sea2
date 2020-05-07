@@ -211,7 +211,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/trip-sea2" data-id="ck9w4tyfp0013j6n3k0m1lqfo" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/trip-sea2" data-id="ck9w4wqup0013kln3ugnlicl9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -371,7 +371,7 @@ ga('send', 'pageview');
                             <a href="/article/cafe-keep" class="thumbnail">
     
     
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/81063924-ac888480-8f13-11ea-9c74-3932d7f7d6b4.jpg)" alt="[카페] KEEP, 카페킵, 인수동카페, 수유동카페" class="thumbnail-image"></span>
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/81063924-ac888480-8f13-11ea-9c74-3932d7f7d6b4.jpg)" alt="[카페] KEEP, 카페킵, cafekeep, 인수동카페, 수유동카페" class="thumbnail-image"></span>
     
     
 </a>
@@ -380,7 +380,7 @@ ga('send', 'pageview');
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
-                            <p class="item-title"><a href="/article/cafe-keep" class="title">[카페] KEEP, 카페킵, 인수동카페, 수유동카페</a></p>
+                            <p class="item-title"><a href="/article/cafe-keep" class="title">[카페] KEEP, 카페킵, cafekeep, 인수동카페, 수유동카페</a></p>
                             <p class="item-date"><time datetime="2020-05-05T11:56:24.000Z" itemprop="datePublished">2020-05-05</time></p>
                         </div>
                     </li>
