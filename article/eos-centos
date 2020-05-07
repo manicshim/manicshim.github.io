@@ -220,7 +220,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/eos-centos" data-id="ck9w514tz000aljn3ndgf6t88" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/eos-centos" data-id="ck9w5de5c000aoyn3ir1gobmz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

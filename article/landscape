@@ -199,7 +199,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/landscape" data-id="ck9w514ua000fljn3ec9h7evt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/landscape" data-id="ck9w5de5m000foyn3ihkb4nsr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

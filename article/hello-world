@@ -201,7 +201,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://blog.manic.kr/article/hello-world" data-id="ck9w514u2000eljn3ad5v128g" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.manic.kr/article/hello-world" data-id="ck9w5de5f000eoyn3wyxfl3jv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
