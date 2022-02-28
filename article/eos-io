@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>[EOS.IO] 설치 및 실행 | 하늘을 사랑하던 소년 - blog.manic.kr</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="blockchain,eos,eos.io,nodeos,cleos,keosd,블록체인,이오스,이오스설치,eos설치,ubunutu" />
+    
+    <meta name="description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[EOS.IO] 설치 및 실행">
+<meta property="og:url" content="https://blog.manic.kr/article/eos-io">
+<meta property="og:site_name" content="하늘을 사랑하던 소년 - blog.manic.kr">
+<meta property="og:description" content="블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://blog.manic.kr/thumb/eos.png">
+<meta property="article:published_time" content="2018-11-07T01:14:35.000Z">
+<meta property="article:modified_time" content="2020-12-24T09:31:03.735Z">
+<meta property="article:author" content="Manic Shim">
+<meta property="article:tag" content="blockchain">
+<meta property="article:tag" content="eos">
+<meta property="article:tag" content="eos.io">
+<meta property="article:tag" content="nodeos">
+<meta property="article:tag" content="cleos">
+<meta property="article:tag" content="keosd">
+<meta property="article:tag" content="블록체인">
+<meta property="article:tag" content="이오스">
+<meta property="article:tag" content="이오스설치">
+<meta property="article:tag" content="eos설치">
+<meta property="article:tag" content="ubunutu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.manic.kr/thumb/eos.png">
+    
+
+    
+        <link rel="alternate" href="/" title="하늘을 사랑하던 소년 - blog.manic.kr" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/">developer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/blockchain/">blockchain</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/code/">code</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/database/">database</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/developer/system/">system</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/">editor</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/calligraphy/">calligraphy</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/essay/">essay</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/editor/thought/">thought</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/">photographer</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/photographer/landscape/">landscape</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/">recreator</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/recreator/director/">director</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/">tripper</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/cafe/">cafe</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/tripper/ocean/">ocean</a></li></ul></li></ul>
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/developer/blockchain/">blockchain</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-eos-io" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        [EOS.IO] 설치 및 실행
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/article/eos-io" class="article-date">
+       <time datetime="2018-11-07T01:14:35.000Z" itemprop="datePublished">2018-11-07</time>
+    </a>
+  </div>
+
+
+<div class="article-date">
+  <i class="fa fa-calendar-plus-o"></i>
+  <a href="/article/eos-io" class="article-date">
+     <time datetime="2020-12-24T09:31:03.735Z" itemprop="dateModified">2020-12-24</time>
+  </a>
+</div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/blockchain/" rel="tag">blockchain</a>, <a class="tag-link-link" href="/tags/cleos/" rel="tag">cleos</a>, <a class="tag-link-link" href="/tags/eos/" rel="tag">eos</a>, <a class="tag-link-link" href="/tags/eos-io/" rel="tag">eos.io</a>, <a class="tag-link-link" href="/tags/eos%EC%84%A4%EC%B9%98/" rel="tag">eos설치</a>, <a class="tag-link-link" href="/tags/keosd/" rel="tag">keosd</a>, <a class="tag-link-link" href="/tags/nodeos/" rel="tag">nodeos</a>, <a class="tag-link-link" href="/tags/ubunutu/" rel="tag">ubunutu</a>, <a class="tag-link-link" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/" rel="tag">블록체인</a>, <a class="tag-link-link" href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4/" rel="tag">이오스</a>, <a class="tag-link-link" href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4%EC%84%A4%EC%B9%98/" rel="tag">이오스설치</a>
+    </div>
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <h1 id="블록체인-EOS-IO-설치-및-실행"><a href="#블록체인-EOS-IO-설치-및-실행" class="headerlink" title="블록체인 EOS.IO 설치 및 실행"></a>블록체인 EOS.IO 설치 및 실행</h1><p>EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며<br>다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다<br>작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니<br>혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다<br>EOS.IO 개발자포털 바로가기 <a target="_blank" rel="noopener" href="https://developers.eos.io/">https://developers.eos.io/</a></p>
+<hr>
+<h3 id="EOS-IO-설치"><a href="#EOS-IO-설치" class="headerlink" title="EOS.IO 설치"></a>EOS.IO 설치</h3><h5 id="1-설치환경"><a href="#1-설치환경" class="headerlink" title="1. 설치환경"></a>1. 설치환경</h5><p><code>Mem: 16G</code><br><code>OS: Ubuntu 18.04.1 LTS (Bionic Beaver)</code><br><code>Kernel: Linux 4.15.0-38-generic</code></p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48110715-0497e980-e291-11e8-8e9d-a4ceb0a7ec68.png" alt="Ubuntu 설치환경"></p>
+<h5 id="2-소스내려받기"><a href="#2-소스내려받기" class="headerlink" title="2. 소스내려받기"></a>2. 소스내려받기</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;EOSIO&#x2F;eos --recursive</span><br></pre></td></tr></table></figure>
+<p>해당 위치는 ~/eos 생성되었으며 클론 이후 submodule 내용들을 update 진행</p>
+<h5 id="3-빌드하기"><a href="#3-빌드하기" class="headerlink" title="3. 빌드하기"></a>3. 빌드하기</h5><ul>
+<li>운영체제 별 시스템 기본 요구사항 확인(1번 yes 선택)</li>
+<li>필요한 라이브러리 설치 (boost, mongodb, wasm)</li>
+<li>빌드 실행</li>
+<li>결과적으로, build 폴더 내부에 주요 결과물들이 생성</li>
+<li><strong>~/opt/</strong> 사전에 해당경로 pwd 확인필수 (~/opt 자동생성 됨)</li>
+</ul>
+<p><strong>빌드진행되면 상당한 시간소요. 절대끈기가 필요 (진짜 속터짐 한숨자고 오세요 ㅋㅋ)</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd eos</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">sudo apt update &amp;&amp; sudo apt upgrade</span><br><span class="line">.&#x2F;eosio_build.sh -s EOS</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>-s 옵션을 통해 eosio 시스템 토큰의 심볼을 정의합니다. 소스의 시스템 토큰이 기본적으로 SYS이기에, -s EOS 옵션이 필요</p>
+</blockquote>
+<p>아래와 같은 화면들을 만나게된다</p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48120723-4edf9180-e2b6-11e8-9d7f-c5829b522e48.png" alt="기본 요구사항 확인"><br><img src="https://user-images.githubusercontent.com/22788288/48111448-d1eff000-e294-11e8-9866-8008aff53166.png" alt="빌드가 진행중인 화면"><br><img src="https://user-images.githubusercontent.com/22788288/48112287-2eeda500-e299-11e8-9376-2be07e400b96.png" alt="빌드 완료"></p>
+<h3 id="빌드-확인"><a href="#빌드-확인" class="headerlink" title="빌드 확인"></a>빌드 확인</h3><p>필수사항은 아니지만 빌드한 결과물 확인(시간 다량 소요됨)<br>우선 mongodb를 실행(~/opt 폴더 내에 빌드됨)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export PATH&#x3D;$&#123;HOME&#125;&#x2F;opt&#x2F;mongodb&#x2F;bin:$PATH</span><br><span class="line">~&#x2F;opt&#x2F;mongodb&#x2F;bin&#x2F;mongod -f ~&#x2F;opt&#x2F;mongodb&#x2F;mongod.conf &amp;</span><br></pre></td></tr></table></figure>
+<p>하위 build 디렉토리에 이동하여 실행</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;eos&#x2F;build</span><br><span class="line">sudo make test</span><br></pre></td></tr></table></figure>
+<h3 id="전역-실행파일-생성"><a href="#전역-실행파일-생성" class="headerlink" title="전역 실행파일 생성"></a>전역 실행파일 생성</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;eos&#x2F;build&#x2F;programs</span><br><span class="line">pwd</span><br><span class="line">ls -al</span><br></pre></td></tr></table></figure>
+<p><img src="https://user-images.githubusercontent.com/22788288/48112437-c9e67f00-e299-11e8-8817-d51d271b5dc7.png" alt="주요 실행파일인 nodeos, cleos, keosd가 같은 이름의 폴더 내에 생성됨"></p>
+<p><strong>중요한부분</strong><br>필자가 찾아본 자료들에서는 </p>
+<blockquote>
+<p>실행파일들이 특정하위 디렉토리에 존재하기때문에 매번 해당경로를 직접지정해서 실행야하는 번거로움</p>
+</blockquote>
+<p>때문에 아래와 같이 진행했다고들 한다</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;eos&#x2F;build</span><br><span class="line">sudo make install #(&#x2F;usr&#x2F;local&#x2F;bin 은 관리자 계정이기에 sudo 필요)</span><br><span class="line">cd &#x2F;usr&#x2F;local&#x2F;bin&#x2F;</span><br></pre></td></tr></table></figure>
+<p>찾아보면 없다?! 삽질 ㅠ.ㅠ</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;usr&#x2F;local&#x2F;eosio&#x2F;bin&#x2F;</span><br><span class="line">ls -al</span><br></pre></td></tr></table></figure>
+<p>상기 위치에 해당하여 생성되며 전역에서 명령어가 실행되지 않는다<br>이삽질 덕분에 짜증이 이만저만이 아니였다… 결국 모르면 모르는 놈만 답답하지 ㅠ.ㅠ<br><strong>해결방안은 2가지</strong> 이다 </p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48112660-c1db0f00-e29a-11e8-8c0d-3b521c94f392.png" alt="생성된 실행파일의 내용과 위치"></p>
+<p>한가지는 - 그냥 복사해버렸다ㅋㅋㅋ 어떤문제를 야기할지 모른다</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp -rf &#x2F;usr&#x2F;local&#x2F;eosio&#x2F;bin&#x2F;* &#x2F;usr&#x2F;local&#x2F;bin</span><br></pre></td></tr></table></figure>
+<p>또다른 한가지는 - <a target="_blank" rel="noopener" href="https://github.com/EOSIO/eos#ubuntu-1804-debian-package-install">HERE</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;usr&#x2F;local&#x2F;src</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;eosio&#x2F;eos&#x2F;releases&#x2F;download&#x2F;v1.4.3&#x2F;eosio-1.4.3.ubuntu-18.04-x86_64.deb</span><br><span class="line">sudo apt install .&#x2F;eosio-1.4.3.ubuntu-18.04-x86_64.deb</span><br></pre></td></tr></table></figure>
+<p>필자는 두번째 방법을 추천한다.<br>드디어 위 과정을 통해, 어느 위치에서든 eos 관련 프로그램을 실행가능하게 됨</p>
+<hr>
+<h3 id="EOS-IO-실행"><a href="#EOS-IO-실행" class="headerlink" title="EOS.IO 실행"></a>EOS.IO 실행</h3><p>eos 의 메인이 되는 eos 노드를 실행명령</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
+<p>위 명령의 결과로 다음과 같이 블록이 계속 생성됨을 확인</p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48113485-6743b200-e29e-11e8-898f-76511ce6f7f6.png" alt="주기적으로 블록이 생성됨"></p>
+<h3 id="EOS-커맨드라인-인터페이스-실행-cleos"><a href="#EOS-커맨드라인-인터페이스-실행-cleos" class="headerlink" title="EOS 커맨드라인 인터페이스 실행 (cleos)"></a>EOS 커맨드라인 인터페이스 실행 (cleos)</h3><p>cleos 를 통해 nodeos에 명령을 내리고 상태를 확인, 정보를 출력한다</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cleos get info</span><br></pre></td></tr></table></figure>
+<p><img src="https://user-images.githubusercontent.com/22788288/48113528-99edaa80-e29e-11e8-935c-896d9b64de5a.png" alt="EOS 노드의 정보가 출력됨"></p>
+<p>cleos가 명령을 정상적으로 수행<br>실행 중인 nodeos와 올바르게 통신했음 확인한다</p>
+<h3 id="nodeos-의-오류-사항"><a href="#nodeos-의-오류-사항" class="headerlink" title="nodeos 의 오류 사항"></a>nodeos 의 오류 사항</h3><p>어떤 문제로 인해서인지 오류를 뱉어내고 멈출때가 있는데<br>Docker 로의 진행에 대한 자료는 많지만 실질적인 내용이 없어 추가한다<br><img src="https://user-images.githubusercontent.com/22788288/48239815-b2cb9c80-e413-11e8-8f3e-5e16aa9b49c8.png" alt="nodeos의 오류화면"></p>
+<p>해결방법은 블록을 다 지우고 다시 생성하는것</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;nodeos --delete-all-blocks </span><br><span class="line">#OR</span><br><span class="line">nodeos --delete-all-blocks  </span><br></pre></td></tr></table></figure>
+<p>블록이 다 지워지면 재실행한다</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>ps -ef 확인된 프로세스를 kill -2로  프로세스를 죽인다. nodeos는 kill -9로 죽이면 엄청난 오류를 토하며 아예 서버를 재설치 하는게 바람직하다</p>
+</blockquote>
+<p>그리고 최신 EOS 경우 지갑데몬이 자동으로 뜨지않아 수동설정해야한다는데<br>확인은 해봐야 할듯..</p>
+<h3 id="지갑데몬을-구성하고-cleos-로-지갑설정을-조정한다"><a href="#지갑데몬을-구성하고-cleos-로-지갑설정을-조정한다" class="headerlink" title="지갑데몬을 구성하고 cleos 로 지갑설정을 조정한다"></a><span style=color:red;>지갑데몬을 구성하고 cleos 로 지갑설정을 조정한다</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">keosd --http-server-address 127.0.0.1:8900 --config-dir $HOME&#x2F;eosio-wallet</span><br></pre></td></tr></table></figure>
+<p>해당 디렉토리 <code>/root/eosio-wallet/config.ini</code> 파일이 존재하며<br>상위에 옵션은 설정파일에 작성하면 되지않을까?!</p>
+<p><img src="https://user-images.githubusercontent.com/22788288/48244914-989db880-e42b-11e8-913a-57fd01acf77c.png" alt="지갑데몬 구동화면"></p>
+<h3 id="cleos-지갑데몬-설정-예제"><a href="#cleos-지갑데몬-설정-예제" class="headerlink" title="cleos 지갑데몬 설정 예제"></a>cleos 지갑데몬 설정 예제</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cleos --wallet-url http:&#x2F;&#x2F;127.0.0.1:8900 wallet create --to-console</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>지갑데몬과 wallet_url 의 포트를 주의하자</p>
+</blockquote>
+<p>명령어 귀찮아서 Shell Script를 작성<br>ex) restart.sh / keosd.sh / block_del.sh 등등</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># pwd 는 &#x2F;root</span><br><span class="line">cd ~</span><br><span class="line">vi restart.sh</span><br><span class="line"></span><br><span class="line"># 아래와 같이 생성한다</span><br><span class="line">#!&#x2F;bin&#x2F;sh</span><br><span class="line">if [ -z &quot;&#96;ps -eaf | grep nodoes&#96;&quot; ]; then</span><br><span class="line">	echo &quot;Nodeos was not started.&quot;</span><br><span class="line">else</span><br><span class="line">	ps -eaf | grep nodeos | awk &#39;&#123;print $2&#125;&#39; |</span><br><span class="line">	while read PID</span><br><span class="line">		do</span><br><span class="line">		echo &quot;Killing $PID ...&quot;</span><br><span class="line">		kill -2 $PID</span><br><span class="line">		echo</span><br><span class="line">		echo &quot;Nodeos is being shutdowned.&quot;</span><br><span class="line">		done</span><br><span class="line">	$HOME&#x2F;start.sh # start.sh 파일은 알아서들 생성하시길</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<p>이하 권한은 755 를 부여하고 구동은 아래와같이한다</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">chmod +x restart.sh</span><br><span class="line"></span><br><span class="line">.&#x2F;restart.sh #OR</span><br><span class="line">sh restart.sh #OR</span><br><span class="line">bash restart.sh</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>상위에 거론한 kill -9으로 죽이지말고  kill -2 로 자동처리</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cleos wallet create # -n, --name [임의적 생성된 지갑이름]</span><br><span class="line">cleos wallet open -n random</span><br><span class="line">cleos wallet unlock -n random</span><br></pre></td></tr></table></figure>
+<p>각각의 옵션들과 기타사항들의 도움말은 <code>cleos --help</code> 하자</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://blog.manic.kr/article/eos-io" data-id="cko9o32ut000e9qn3hycy9yx4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "Manic Shim"
+        },
+        "headline": "[EOS.IO] 설치 및 실행",
+        "image": "https://blog.manic.kr/thumb/eos.png",
+        "keywords": "blockchain eos eos.io nodeos cleos keosd 블록체인 이오스 이오스설치 eos설치 ubunutu",
+        "genre": "developer blockchain",
+        "datePublished": "2018-11-07",
+        "dateCreated": "2018-11-07",
+        "dateModified": "2020-12-24",
+        "url": "https://blog.manic.kr//article/eos-io",
+        "description": "블록체인 EOS.IO 설치 및 실행EOS에 관련한 자료들이 그리 풍부하지 않아 반복했던 실수를 줄이고자 작성하는 내용이며다소 정확하지 않거나 전혀 틀린 방법들이 존재할수 있음을 사전 명시합니다작성된 내용은 작성자 본인의 학습 또는 진행의 도움을 갖고자 기록하는 기록물이니혹시 필요하신 분들에게 있어 길라잡이가 아닌 도움말 정도로 이용해주시길 바랍니다EOS.I",
+        "wordCount": 795
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/article/eos-centos" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            [EOS.IO] Centos7 - EOS 설치하기
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/article/trip-sea2" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">[여행] 가을바다의 낭만을 떠나다-2부</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/enough-you" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/84006991-a4a48000-a9aa-11ea-8f29-6c79bb27bd32.jpg)" alt="[카페] 이너프유, Enough You, 양주카페" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/enough-you" class="title">[카페] 이너프유, Enough You, 양주카페</a></p>
+                            <p class="item-date"><time datetime="2020-06-08T07:58:57.000Z" itemprop="datePublished">2020-06-08</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/cafe-keep" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/81063924-ac888480-8f13-11ea-9c74-3932d7f7d6b4.jpg)" alt="[카페] KEEP, 카페킵, cafekeep, 인수동카페, 수유동카페" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/cafe-keep" class="title">[카페] KEEP, 카페킵, cafekeep, 인수동카페, 수유동카페</a></p>
+                            <p class="item-date"><time datetime="2020-05-05T11:56:24.000Z" itemprop="datePublished">2020-05-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/opin" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/66249696-6814ea80-e772-11e9-99f6-756dec457d00.png)" alt="[카페] 오핀 (OPIN)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/opin" class="title">[카페] 오핀 (OPIN)</a></p>
+                            <p class="item-date"><time datetime="2019-10-05T04:18:21.000Z" itemprop="datePublished">2019-10-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/parcprive" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/66249336-a14a5c00-e76c-11e9-8090-a656dbeb032a.png)" alt="[카페] 파크프리베 (Parc Prive)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/tripper/">tripper</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/tripper/cafe/">cafe</a></p>
+                            <p class="item-title"><a href="/article/parcprive" class="title">[카페] 파크프리베 (Parc Prive)</a></p>
+                            <p class="item-date"><time datetime="2019-10-05T03:32:49.000Z" itemprop="datePublished">2019-10-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/article/docker-registry" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[docker] registry 구성방법" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a></p>
+                            <p class="item-title"><a href="/article/docker-registry" class="title">[docker] registry 구성방법</a></p>
+                            <p class="item-date"><time datetime="2018-12-06T08:08:05.000Z" itemprop="datePublished">2018-12-06</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/">developer</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/developer/blockchain/">blockchain</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/code/">code</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/database/">database</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/developer/system/">system</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/calligraphy/">calligraphy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/essay/">essay</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/editor/thought/">thought</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/">photographer</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/photographer/landscape/">landscape</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/">recreator</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/recreator/director/">director</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/">tripper</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/cafe/">cafe</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/tripper/ocean/">ocean</a><span class="category-list-count">2</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">5</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/after-grow/" rel="tag">after grow</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/afternoon/" rel="tag">afternoon</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/autumn/" rel="tag">autumn</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blockchain/" rel="tag">blockchain</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/" rel="tag">blog</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/breaker/" rel="tag">breaker</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cafe/" rel="tag">cafe</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cafekeep/" rel="tag">cafekeep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/calligraphy/" rel="tag">calligraphy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/centos/" rel="tag">centos</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cleos/" rel="tag">cleos</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/code/" rel="tag">code</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/coder/" rel="tag">coder</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/coffee/" rel="tag">coffee</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/creative/" rel="tag">creative</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/croissants/" rel="tag">croissants</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/database/" rel="tag">database</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/db/" rel="tag">db</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/developer/" rel="tag">developer</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/director/" rel="tag">director</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker/" rel="tag">docker</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/edit/" rel="tag">edit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/editor/" rel="tag">editor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/enoughyou/" rel="tag">enoughyou</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eos/" rel="tag">eos</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eos-io/" rel="tag">eos.io</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eos%EC%84%A4%EC%B9%98/" rel="tag">eos설치</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keep/" rel="tag">keep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keosd/" rel="tag">keosd</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/" rel="tag">linux</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mail/" rel="tag">mail</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodeos/" rel="tag">nodeos</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ocean/" rel="tag">ocean</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/photo/" rel="tag">photo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/platform/" rel="tag">platform</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/programmer/" rel="tag">programmer</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/recreative/" rel="tag">recreative</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/recreator/" rel="tag">recreator</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/" rel="tag">redis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/restaurant/" rel="tag">restaurant</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sea/" rel="tag">sea</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sendmail/" rel="tag">sendmail</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/spam/" rel="tag">spam</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/spring/" rel="tag">spring</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/strawberry/" rel="tag">strawberry</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sunset/" rel="tag">sunset</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/syntex/" rel="tag">syntex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/system/" rel="tag">system</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/trip/" rel="tag">trip</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubunutu/" rel="tag">ubunutu</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/winter/" rel="tag">winter</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/" rel="tag">블록체인</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%88%98%EC%9C%A0%EB%8F%99%EC%B9%B4%ED%8E%98/" rel="tag">수유동카페</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%96%91%EC%A3%BC%EC%B9%B4%ED%8E%98/" rel="tag">양주카페</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%9D%B4%EB%84%88%ED%94%84%EC%9C%A0/" rel="tag">이너프유</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4/" rel="tag">이오스</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4%EC%84%A4%EC%B9%98/" rel="tag">이오스설치</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%EC%9D%B8%EC%88%98%EB%8F%99%EC%B9%B4%ED%8E%98/" rel="tag">인수동카페</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/after-grow/" style="font-size: 12.5px;">after grow</a> <a href="/tags/afternoon/" style="font-size: 10px;">afternoon</a> <a href="/tags/autumn/" style="font-size: 17.5px;">autumn</a> <a href="/tags/blockchain/" style="font-size: 12.5px;">blockchain</a> <a href="/tags/blog/" style="font-size: 12.5px;">blog</a> <a href="/tags/breaker/" style="font-size: 15px;">breaker</a> <a href="/tags/cafe/" style="font-size: 17.5px;">cafe</a> <a href="/tags/cafekeep/" style="font-size: 10px;">cafekeep</a> <a href="/tags/calligraphy/" style="font-size: 10px;">calligraphy</a> <a href="/tags/centos/" style="font-size: 10px;">centos</a> <a href="/tags/cleos/" style="font-size: 12.5px;">cleos</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coder/" style="font-size: 10px;">coder</a> <a href="/tags/coffee/" style="font-size: 10px;">coffee</a> <a href="/tags/creative/" style="font-size: 10px;">creative</a> <a href="/tags/croissants/" style="font-size: 10px;">croissants</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/db/" style="font-size: 10px;">db</a> <a href="/tags/developer/" style="font-size: 10px;">developer</a> <a href="/tags/director/" style="font-size: 10px;">director</a> <a href="/tags/docker/" style="font-size: 12.5px;">docker</a> <a href="/tags/edit/" style="font-size: 10px;">edit</a> <a href="/tags/editor/" style="font-size: 10px;">editor</a> <a href="/tags/enoughyou/" style="font-size: 10px;">enoughyou</a> <a href="/tags/eos/" style="font-size: 12.5px;">eos</a> <a href="/tags/eos-io/" style="font-size: 12.5px;">eos.io</a> <a href="/tags/eos%EC%84%A4%EC%B9%98/" style="font-size: 10px;">eos설치</a> <a href="/tags/keep/" style="font-size: 10px;">keep</a> <a href="/tags/keosd/" style="font-size: 12.5px;">keosd</a> <a href="/tags/linux/" style="font-size: 12.5px;">linux</a> <a href="/tags/mail/" style="font-size: 10px;">mail</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/nodeos/" style="font-size: 12.5px;">nodeos</a> <a href="/tags/ocean/" style="font-size: 12.5px;">ocean</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/platform/" style="font-size: 10px;">platform</a> <a href="/tags/programmer/" style="font-size: 10px;">programmer</a> <a href="/tags/recreative/" style="font-size: 10px;">recreative</a> <a href="/tags/recreator/" style="font-size: 10px;">recreator</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/restaurant/" style="font-size: 10px;">restaurant</a> <a href="/tags/sea/" style="font-size: 10px;">sea</a> <a href="/tags/sendmail/" style="font-size: 10px;">sendmail</a> <a href="/tags/spam/" style="font-size: 10px;">spam</a> <a href="/tags/spring/" style="font-size: 10px;">spring</a> <a href="/tags/strawberry/" style="font-size: 10px;">strawberry</a> <a href="/tags/sunset/" style="font-size: 12.5px;">sunset</a> <a href="/tags/syntex/" style="font-size: 10px;">syntex</a> <a href="/tags/system/" style="font-size: 12.5px;">system</a> <a href="/tags/trip/" style="font-size: 20px;">trip</a> <a href="/tags/ubunutu/" style="font-size: 10px;">ubunutu</a> <a href="/tags/winter/" style="font-size: 10px;">winter</a> <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/" style="font-size: 12.5px;">블록체인</a> <a href="/tags/%EC%88%98%EC%9C%A0%EB%8F%99%EC%B9%B4%ED%8E%98/" style="font-size: 10px;">수유동카페</a> <a href="/tags/%EC%96%91%EC%A3%BC%EC%B9%B4%ED%8E%98/" style="font-size: 10px;">양주카페</a> <a href="/tags/%EC%9D%B4%EB%84%88%ED%94%84%EC%9C%A0/" style="font-size: 10px;">이너프유</a> <a href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4/" style="font-size: 10px;">이오스</a> <a href="/tags/%EC%9D%B4%EC%98%A4%EC%8A%A4%EC%84%A4%EC%B9%98/" style="font-size: 10px;">이오스설치</a> <a href="/tags/%EC%9D%B8%EC%88%98%EB%8F%99%EC%B9%B4%ED%8E%98/" style="font-size: 10px;">인수동카페</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2022 Manic Shim</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'https://blog.manic.kr/article/eos-io';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
