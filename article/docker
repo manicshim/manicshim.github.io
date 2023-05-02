@@ -229,7 +229,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/docker" data-id="clh5o7dsm0007dgn39ia4h0nf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/docker" data-id="clh5o9ues0007etn3gsnwflsh" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

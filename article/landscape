@@ -219,7 +219,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/landscape" data-id="clh5o7dt2000kdgn39d17d6i0" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/landscape" data-id="clh5o9uf6000ketn3dagtamxv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

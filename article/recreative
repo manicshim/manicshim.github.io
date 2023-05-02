@@ -222,7 +222,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/recreative" data-id="clh5o7dta000wdgn3874w4heh" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/recreative" data-id="clh5o9ufg000wetn3hpv55un5" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

@@ -235,7 +235,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/docker-registry" data-id="clh5o7dsl0006dgn3fewmbw90" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/docker-registry" data-id="clh5o9ueq0006etn34rlscaxi" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

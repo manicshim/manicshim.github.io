@@ -223,7 +223,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/spam-mail-check" data-id="clh5o7dtc0010dgn3cdgr868p" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/spam-mail-check" data-id="clh5o9ufi0010etn3efp3ga3e" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
