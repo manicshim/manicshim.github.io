@@ -264,7 +264,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/coder" data-id="clh5o9uep0005etn39ty8acs5" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/coder" data-id="clh61yoj100051ln3a02i2r9o" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

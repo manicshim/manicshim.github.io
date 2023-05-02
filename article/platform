@@ -299,7 +299,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/platform" data-id="clh5o9ufe000tetn3gpw5e6nt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/platform" data-id="clh61yojz000t1ln3ed2lgle4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
