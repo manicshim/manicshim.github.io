@@ -235,7 +235,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/trip-sea" data-id="clh5o2ayd0013b3n3fx9kejr8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/trip-sea" data-id="clh5o7dtd0013dgn37ap3e6nb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

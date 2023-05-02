@@ -247,7 +247,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/eos-centos" data-id="clh5o2axp000bb3n3fg1ec57e" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/eos-centos" data-id="clh5o7dsp000bdgn3069ncmsr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

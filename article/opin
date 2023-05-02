@@ -235,7 +235,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/opin" data-id="clh5o2ay6000pb3n3ejtq413k" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/opin" data-id="clh5o7dt6000pdgn32wu52rjj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
