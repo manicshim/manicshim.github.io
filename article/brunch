@@ -6,20 +6,27 @@
     
 
     
-    <title>Archive: 2018/12 | 하늘을 사랑하던 소년 - blog.manic.kr</title>
+    <title>저작권 보호?, 과연 Brunch 를 보다가... 견해는 견해일뿐 | 하늘을 사랑하던 소년 - blog.manic.kr</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="하늘을 사랑하던 어느 소년의 먼지 쌓인 다락방">
-<meta property="og:type" content="website">
-<meta property="og:title" content="하늘을 사랑하던 소년 - blog.manic.kr">
-<meta property="og:url" content="https://blog.manic.kr/archives/2018/12/index.html">
+    <meta name="keywords" content="blog,pointview" />
+    
+    <meta name="description" content="Blog 를 작성하면서 짧막한 견해 한줄 수많은 블로그 플랫폼들이 제공되고있는 가운데개인적으로 참으로 못마땅한 블로그 Brunch …일전에 post 권한으로 작가등록을 하려했더니주기적인 자료 업로드 된 기존에 자료들이나 포스트 들이 없어서작가 등록을 반려시키겠다하더이다…즉 갈아타라는 말이겠지… 고품질의 블로거들 이동해서니들걸로 만들기 위한… Web에서 머물">
+<meta property="og:type" content="article">
+<meta property="og:title" content="저작권 보호?, 과연 Brunch 를 보다가... 견해는 견해일뿐">
+<meta property="og:url" content="https://blog.manic.kr/article/brunch">
 <meta property="og:site_name" content="하늘을 사랑하던 소년 - blog.manic.kr">
-<meta property="og:description" content="하늘을 사랑하던 어느 소년의 먼지 쌓인 다락방">
+<meta property="og:description" content="Blog 를 작성하면서 짧막한 견해 한줄 수많은 블로그 플랫폼들이 제공되고있는 가운데개인적으로 참으로 못마땅한 블로그 Brunch …일전에 post 권한으로 작가등록을 하려했더니주기적인 자료 업로드 된 기존에 자료들이나 포스트 들이 없어서작가 등록을 반려시키겠다하더이다…즉 갈아타라는 말이겠지… 고품질의 블로거들 이동해서니들걸로 만들기 위한… Web에서 머물">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://user-images.githubusercontent.com/22788288/235566130-b62ea5a1-9e2e-4452-b412-b7e9c5878460.png">
+<meta property="article:published_time" content="2023-05-02T02:41:04.000Z">
+<meta property="article:modified_time" content="2023-05-02T02:41:04.497Z">
 <meta property="article:author" content="Manic Shim">
-<meta property="article:tag" content="Coder,Developer,Programmer,Tripper,Photographer,Illustrator,Editer,Calligrapher,CanonEOS1Dx,iphoneX,MavicPro,形而上學,">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="pointview">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/22788288/235566130-b62ea5a1-9e2e-4452-b412-b7e9c5878460.png">
     
 
     
@@ -146,81 +153,173 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive: 2018/12
+    <a class="page-title-link" href="/categories/editor/">editor</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/editor/essay/">essay</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-brunch" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/article/docker-registry" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://user-images.githubusercontent.com/22788288/48998859-2ac9ee80-f198-11e8-8d42-9a705e6dc7f8.png)" alt="[docker] registry 구성방법" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://blog.manic.kr/article/docker-registry">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/developer/">developer</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/developer/system/">system</a>
-            </div>
-            <div class="date"><time datetime="2018-12-06T08:08:05.000Z" itemprop="datePublished">2018-12-06</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/article/docker-registry">[docker] registry 구성방법</a>
+        저작권 보호?, 과연 Brunch 를 보다가... 견해는 견해일뿐
         </h1>
     
 
-        <p class="article-excerpt">
-            Docker의 registry 구성하는 방법
-registry 컨테이너 구성
--v 옵션으로 저장소 디렉토리 확인
-컨테이너 구동
-docker hub 에서 우분투 18.04 pull
-나만의 이미지를 위한 tag 부여
-확인 / docker images &amp; docker ps -a
-저장소에 저장을 위한 push
-우분투 이미지 삭제 &amp; 등록된 나만의 이미
-        </p>
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/article/brunch" class="article-date">
+       <time datetime="2023-05-02T02:41:04.000Z" itemprop="datePublished">2023-05-02</time>
+    </a>
+  </div>
+
+
+<div class="article-date">
+  <i class="fa fa-calendar-plus-o"></i>
+  <a href="/article/brunch" class="article-date">
+     <time datetime="2023-05-02T02:41:04.497Z" itemprop="dateModified">2023-05-02</time>
+  </a>
+</div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/blog/" rel="tag">blog</a>, <a class="tag-link-link" href="/tags/pointview/" rel="tag">pointview</a>
     </div>
-</article>
-    
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <h3 id="Blog-를-작성하면서-짧막한-견해-한줄"><a href="#Blog-를-작성하면서-짧막한-견해-한줄" class="headerlink" title="Blog 를 작성하면서 짧막한 견해 한줄"></a>Blog 를 작성하면서 짧막한 견해 한줄</h3><ul>
+<li>수많은 블로그 플랫폼들이 제공되고있는 가운데<br>개인적으로 참으로 못마땅한 블로그 Brunch …<br>일전에 post 권한으로 작가등록을 하려했더니<br>주기적인 자료 업로드 된 기존에 자료들이나 포스트 들이 없어서<br>작가 등록을 반려시키겠다하더이다…<br>즉 갈아타라는 말이겠지… 고품질의 블로거들 이동해서<br>니들걸로 만들기 위한… Web에서 머물면서 참.. 하찮은 느낌 받기도 오랫만이라<br>그러더니 Internet 가장 강점인.. 공유를 막겠다한다?!<br><img src="https://user-images.githubusercontent.com/22788288/235566130-b62ea5a1-9e2e-4452-b412-b7e9c5878460.png" alt="brunch" title="저작권보호란다"></li>
+</ul>
+<p>저작권을 보호하려면 아예 Internet에 기재하지를 말아야지<br>정보보를 위한 내용으로 그렇게 저작권을 보호하고싶다면 인트라넷이나 올리고 편찬해서<br>니들끼리 정보 공유하고 보호하란말이다… 나이트 클럽에 들어와놓고 책읽겠다고 조용히<br>하라면 참 꼴사납게 … 책을 편찬하고 싶으면 Offine으로 편찬하고 저작권보호해라<br>F12 번 눌러서 싹다 벗기겨 오고 ping 던질까하다가 … 여기까지 일축한다</p>
+<p>Internet에 들어왔으면 Internet 에 어울리게 행동하기</p>
+
         </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://blog.manic.kr/article/brunch" data-id="clh5o2ax90001b3n3hwks3xvg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "Manic Shim"
+        },
+        "headline": "저작권 보호?, 과연 Brunch 를 보다가... 견해는 견해일뿐",
+        "image": "https://blog.manic.krhttps://user-images.githubusercontent.com/22788288/235566130-b62ea5a1-9e2e-4452-b412-b7e9c5878460.png",
+        "keywords": "blog pointview",
+        "genre": "editor essay",
+        "datePublished": "2023-05-02",
+        "dateCreated": "2023-05-02",
+        "dateModified": "2023-05-02",
+        "url": "https://blog.manic.kr//article/brunch",
+        "description": "Blog 를 작성하면서 짧막한 견해 한줄
+수많은 블로그 플랫폼들이 제공되고있는 가운데개인적으로 참으로 못마땅한 블로그 Brunch …일전에 post 권한으로 작가등록을 하려했더니주기적인 자료 업로드 된 기존에 자료들이나 포스트 들이 없어서작가 등록을 반려시키겠다하더이다…즉 갈아타라는 말이겠지… 고품질의 블로거들 이동해서니들걸로 만들기 위한… Web에서 머물",
+        "wordCount": 105
+    }
+</script>
+
+</article>
+
+    <section id="comments">
     
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
 
-    </div></section>
+    
+    </section>
 
 
 
@@ -282,6 +381,19 @@ docker hub 에서 우분투 18.04 pull
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/article/cafe-keep" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">[카페] KEEP, 카페킵, cafekeep, 인수동카페, 수유동카페</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -493,11 +605,13 @@ docker hub 에서 우분투 18.04 pull
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'https://blog.manic.kr/article/brunch';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
