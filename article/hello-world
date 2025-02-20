@@ -224,7 +224,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/hello-world" data-id="cm7cxu3j200214kn31barh89g" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/hello-world" data-id="cm7cyegw20021kcn3ghlbfham" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

@@ -233,7 +233,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/cafe-keep" data-id="cm7cxu3gj00054kn30z0700ez" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/cafe-keep" data-id="cm7cyegtd0005kcn3cljs1btm" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

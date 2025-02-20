@@ -226,7 +226,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/brunch" data-id="cm7cxu3gf00024kn38cb4g1kv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/brunch" data-id="cm7cyegt90002kcn3aew20t1w" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

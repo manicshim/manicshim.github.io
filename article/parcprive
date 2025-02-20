@@ -229,7 +229,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/parcprive" data-id="cm7cxu3ja002d4kn3htrfg0gi" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/parcprive" data-id="cm7cyegwc002dkcn3dlq6dh30" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

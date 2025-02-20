@@ -232,7 +232,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/redis" data-id="cm7cxu3jc002j4kn3bfwfcigi" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/redis" data-id="cm7cyegwh002lkcn34q3h5xnk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

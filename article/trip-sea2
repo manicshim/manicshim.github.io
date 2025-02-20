@@ -233,7 +233,7 @@
 
 
 
-    <a data-url="https://blog.manic.kr/article/trip-sea2" data-id="cm7cxu3je002r4kn3h4xgdbqk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.manic.kr/article/trip-sea2" data-id="cm7cyegwl002tkcn3ckhq1xsa" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
